@@ -1,7 +1,8 @@
-import React from 'react'
+import React, {useState} from 'react'
 import  './Header.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDown} from '@fortawesome/free-solid-svg-icons';
+import { faAngleUp} from '@fortawesome/free-solid-svg-icons';
 import image from '../../Assets/Images/image1.png';
 import Typical from 'react-typical';
 //import vertical from './../../Assets/Videos/VERTICAL.mp4'
@@ -9,6 +10,15 @@ import Typical from 'react-typical';
 
 
 function Header () {
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+    //const [show, setShow] = useState(false);
+
+    const scrollTo = (nodeSelector) => {
+        const domNode = document.querySelector(nodeSelector)
+
+        window.scrollTo?.({ top: domNode.offsetTop, behavior: 'smooth' });
+    }
+
     return(
         <header>
             <div className='header'>
@@ -17,9 +27,25 @@ function Header () {
                     <img src={image} alt=''></img>
                     <div className='dropdown'>
                         <div className='dropdown-icon'>
-                            <FontAwesomeIcon icon={faAngleDown} style={{color:"white"}}/>
-
+                        {
+                            isMenuOpen ?
+                                <FontAwesomeIcon icon={faAngleUp} style={{color:"white"}} onClick={()=>setIsMenuOpen(false)}/>
+                                : <FontAwesomeIcon icon={faAngleDown} style={{color:"white"}} onClick={()=>setIsMenuOpen(true)}/>
+                        }
                         </div>
+
+                        {
+                            isMenuOpen ? 
+                                <div className='dropdown-content'>
+                                    <li onClick={() => scrollTo('.landing-one-text')}>Misión</li>
+                                    <li onClick={() => scrollTo('.landing-two-div-one')}>Game changers</li>
+                                    <li onClick={() => scrollTo('.landing-three-title')}>Últimos 12 meses</li>
+                                    <li>Productos</li>
+                                    <li>Press</li>
+                                    <li>FAQS</li>
+                    </div> : null
+                }
+                
 
                     </div>
 
@@ -39,7 +65,7 @@ function Header () {
                             ]}
                             />
                             </h3>
-                        <button className='btn-home'>Invierte ahora</button>
+                        <button className='btn-home'><a target="_blank" rel="noopener noreferrer" href='https://www.crowdcube.com/companies/heura-foods-for-tomorrow/pitches/lEm9rl'>Invierte ahora</a></button>
                         <p className='header-subtitle'>Capital en riesgo</p>
                     </div>
                     <div className='last-text'>

@@ -36,7 +36,7 @@ const LandingTwo = () => {
 
   return (
     <div className='landing-two'>
-      <div className={ color ? 'landing-two-mainbg' : 'landing-two-secondbg'}>
+      <div className={ color ? 'landing-two-mainbg' : 'landing-two-seconbg'}>
       <div className='landing-two-div-one'>
         <h2 className='landing-two-h2-underline'>¿quienes somos?</h2>
         <p className='landing-two-p'>Somos una startup de Barcelona con una misión. Nos dedicamos a desarrollar sucesores de la carne 
@@ -52,7 +52,7 @@ const LandingTwo = () => {
       <div className='landing-two-div-three'>
         <h2 className='landing-two-h2-underline'>¿como lo hacemos?</h2>
         <p><strong>Nuestra contribución a un mundo mejor:</strong></p>
-        <Carousel>
+        <Carousel showStatus={false} showThumbs={false} showIndicators={false}>
           <div>
             <div>
               <h2>tecnología mediterránea</h2>
@@ -105,8 +105,12 @@ const LandingTwo = () => {
           </div>
         </div>  
       </div>
-
+      
+      
+      
+      
       <div className='landing-two-div-last'>
+      <Carousel showStatus={false} showThumbs={false} showIndicators={false} showArrows={false} autoPlay interval="3000" infiniteLoop transitionTime="3000" >
         <div>
           <img src={image} alt=''></img>
           <p>"Heura: El exitoso negocio que une a varios futbolistas españoles."</p>
@@ -124,8 +128,11 @@ const LandingTwo = () => {
           <img src={image} alt=''></img>
           <p>"La campaña de crowdfunding de Heura capta 4 millones de más de 3.000 inversores en un día."</p>
         </div>
+        </Carousel>
+        </div>
         
-      </div>
+      
+      
 
       
 

@@ -63,6 +63,10 @@
         border: none;
         
     }
+    .btn-home a {
+        text-decoration: none;
+        color: #000;
+    }
     .header-text {
         padding-top: 60px;
         padding-bottom: 44px;
@@ -74,6 +78,40 @@
         text-decoration: underline;
         font-weight: bold;
         color: white;
+    }
+    .dropdown-content {
+        background-color: #222;
+        /*display: none;*/
+        position: absolute;
+        z-index: 1;
+        margin-top: 35px;
+        margin-bottom: 0;
+        left: 0;
+        right: 0;
+        padding-left: 40px;
+        padding-right: 40px;
+
+    }
+    .dropdown-content li {
+        list-style: none;
+        color: #FFFFFF;
+        font-family: 'Poppins-Regular';
+        font-size: 12px;
+        padding: 15px 0px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        border-bottom: 1px solid hsla(0,0%,100%,.05);
+        
+    }
+    .dropdown {
+        display: inline-block;
+
+    }
+    .dropdown-icon {
+        margin-left: 20px;
+        z-index: 2;
+        
     }
 
 }
