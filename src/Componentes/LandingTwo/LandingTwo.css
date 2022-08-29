@@ -1,0 +1,85 @@
+@media only screen and (max-width: 859px) {
+    .landing-two {
+        width: 100%;
+        position: relative;
+
+    }
+    .landing-two-mainbg {
+        background-color: #fdf7d4;
+        transition: 1.5s;
+        padding-bottom: 20px;
+    }
+    .landing-two-secondbg {
+        background-color: #f9e021;
+        
+    }
+    .landing-two-h2-underline {
+        text-transform: uppercase;
+        color: #222;
+        text-decoration: underline #f9e021 4px solid;
+        text-underline-offset: 4px;
+    }
+    .landing-two-p {
+        font-family: 'Poppins-Light';
+        font-size: 14px;
+        line-height: 1.6;
+    }
+    .landing-two-div-one {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .landing-two-div-second {
+        padding-top: 80px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .landing-two-div-three {
+        padding-top: 80px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .landing-two-div-four {
+        padding-top: 120px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #fdf7d4;
+    }
+    .landing-two-div-four-bg {
+        padding-top: 120px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #f9e021;
+    }
+    .landing-two-div-four-title {
+        text-transform: uppercase;
+        color: white;
+        text-align: center;
+    }
+    .four-span {
+        color: #222;
+        text-decoration: underline white 4px solid;
+    }
+    .landing-two-div-four-divs {
+        padding-top: 40px;
+    }
+    .landing-two-div-four-divs-p {
+        display: flex;
+        margin-bottom: 25px;
+
+    }
+    .last-span {
+        font-weight: bold;
+        text-decoration: underline white 2px solid;
+    }
+    .landing-two-div-last {
+        background-image: url(../../Assets/Images/recuadro.png);
+    }
+
+
+    
+}

@@ -1,0 +1,89 @@
+@media only screen and (max-width: 859px) {
+    .landing-one {
+        background: #f9e021;
+        width: 100%;
+        text-align: center;
+        position: relative;
+    }
+    .landing-one-header {
+        height: 76px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .landing-one img {
+        margin-left: 18px;
+    }
+    .landing-one-header-right {
+        display: flex;
+        align-items: center;
+        margin-right: 18px;
+    }
+    .btn-landing {
+        background-color: #222;
+        color: white;
+        font-family: 'Poppins-Light';
+        font-size: 12px;
+        font-weight: bold;
+        padding: 0 16px;
+        height: 36px;
+        border-radius: 5px;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        border: none;
+        margin-left: 10px;
+    }
+    .landing-one-text {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Poppins-Light';
+        font-size: 14px;
+        line-height: 24px;
+        padding-top: 120px;
+    }
+    .landing-one-title {
+        text-transform: uppercase;
+        color: white;
+        margin-bottom: 30px;
+    }
+    .landing-one-title-underline {
+        color: #222;
+        text-decoration: underline white 4px solid;
+        padding-bottom: 3px;
+
+    }
+    .landing-one-last-text {
+        color: #222;
+    }
+    .landing-btn-group {
+        margin-top: 60px;
+    }
+    .landing-one-btn {
+        background-color: #222;
+        border-radius: 7px;
+        padding: 0 20px;
+        height: 42px;
+        color: white;
+        font-weight: bold;
+        font-family: 'Poppins-Light';
+        font-size: 14px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        border: none;
+    }
+    .landing-one-subtitle {
+        font-family: 'Poppins-Light';
+        font-size: 12px;
+        color: white;
+        margin-top: 10px;
+    }
+    .landing-one-img {
+        margin-top: 50px;
+        padding-bottom: 80px;
+    }
+}
