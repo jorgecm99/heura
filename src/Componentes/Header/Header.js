@@ -5,12 +5,14 @@ import { faAngleDown} from '@fortawesome/free-solid-svg-icons';
 import { faAngleUp} from '@fortawesome/free-solid-svg-icons';
 import image from '../../Assets/Images/image1.png';
 import Typical from 'react-typical';
-//import vertical from './../../Assets/Videos/VERTICAL.mp4'
+import vertical from './../../Assets/Videos/VERTICAL.mp4'
+import Modal from './Modal';
 
 
 
-function Header () {
+export default function Header () {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [isModal, setIsModal] = useState(true)
     //const [show, setShow] = useState(false);
 
     const scrollTo = (nodeSelector) => {
@@ -82,16 +84,49 @@ function Header () {
                     </div>
                     
                 </div>
+                <div>
+                    
+                </div>
 
-                {/*<video muted loop autoPlay className='video-mobile'>
-                <source src={vertical} type="video/mp4"></source>
-                Tu navegador no soporta los vídeos de HTML5
-    </video>*/}
-  
+
+                <div className='header-div-container'>
+
+                </div>
+
+                <div  className='video-mobile'>
+                <video muted loop autoPlay>
+                    <source src={vertical} type="video/mp4"></source>
+                    Tu navegador no soporta los vídeos de HTML5
+                </video>
+                <button className='header-video-btn' onClick={() => setIsModal(true)}>Compartir</button>
+
+                <Modal open={isModal} onClose={() => setIsModal(false)}>
+                
+                <div className='modal-container'>
+                    <h1 className='modal-title'>share</h1>
+                    
+                    <div className='modal-group'>
+                        <button className='modal-group-btn'>Facebook</button>
+                        <button className='modal-group-btn'>Twitter</button>
+                        <button className='modal-group-btn'>Linkedin</button>
+                        <button className='modal-group-btn'>Instagram</button>
+                    </div>
+
+                    <div className='modal-copy-group'>
+                        <p className='modal-ytb'>youtu.be/Z9m7fGdkBYM</p> 
+                        <button className='modal-copy-btn'>Copy link</button>
+                    </div>
+                        </div>
+
+                        <p className='modal-copied'>Copied link</p>
+                </Modal>
+                
+                
+                
+                </div>
 
             </div>
+            
         </header>
     )
 }
-
-export default Header

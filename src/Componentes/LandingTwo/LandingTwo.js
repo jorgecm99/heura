@@ -46,49 +46,55 @@ const LandingTwo = () => {
 
       <div data-aos="fade-up" data-aos-duration="2000" className='landing-two-div-second'>
         <h2 className='landing-two-h2-underline'>¿porqué lo hacemos?</h2>
-        <div>CARRUSEL</div>
+        <Carousel showArrows={false} showIndicators={false} showStatus={false} showThumbs={false}>
+          <img src={image} alt=''></img>
+          <img src={image} alt=''></img>
+          <img src={image} alt=''></img>
+          <img src={image} alt=''></img>
+        </Carousel>
       </div>
 
       <div className='landing-two-div-three'>
         <h2 className='landing-two-h2-underline'>¿como lo hacemos?</h2>
         <p><strong>Nuestra contribución a un mundo mejor:</strong></p>
         <Carousel showStatus={false} showThumbs={false} showIndicators={false}>
-          <div>
-            <div>
-              <h2>tecnología mediterránea</h2>
-              <h2>de primer nivel</h2>
+
+          <div className='landing-two-div-three-container'>
+            <div className='landing-two-div-three-group'>
+              <h2 className='landing-two-div-three-title'>tecnología mediterránea</h2>
+              <h2 className='landing-two-div-three-title'>de primer nivel</h2>
             </div>
-            <p>Aprovechamos nuestra herencia mediterránea para desarrollar productos vegetales saludables y
+            <p className='landing-two-div-three-text'>Aprovechamos nuestra herencia mediterránea para desarrollar productos vegetales saludables y
                deliciosos: todos los productos cárnicos que nos encantan, pero con efectos beneficiosos para
                 el planeta, los animales y nuestra salud.
             </p>
-            <img src={image} alt=''></img>
+            <img src={image} alt='' className='landing-two-div-three-image'></img>
           </div>
 
-          <div>
-            <div>
-              <h2>una comunidad de good</h2>
-              <h2>rebels</h2>
+          <div className='landing-two-div-three-container'>
+            <div className='landing-two-div-three-group'>
+              <h2 className='landing-two-div-three-title'>una comunidad de good</h2>
+              <h2 className='landing-two-div-three-title'>rebels</h2>
             </div>
-            <p>Nuestra comunidad sigue creciendo para convertirse en un movimiento global y transformador de 
+            <p className='landing-two-div-three-text'>Nuestra comunidad sigue creciendo para convertirse en un movimiento global y transformador de 
               Good Rebels desde el empoderamiento y la información.</p>
-            <img src={image} alt=''></img>
+            <img src={image} alt='' className='landing-two-div-three-image'></img>
           </div>  
 
-          <div>
-            <div>
-              <h2>expansión internacional</h2>
-              <h2>y democratización de</h2>
-              <h2>productos</h2>
+          <div className='landing-two-div-three-container'>
+            <div className='landing-two-div-three-group'>
+              <h2 className='landing-two-div-three-title'>expansión internacional</h2>
+              <h2 className='landing-two-div-three-title'>y democratización de</h2>
+              <h2 className='landing-two-div-three-title'>productos</h2>
             </div>
-            <p>Queremos que Heura® llegue cada vez a más mercados. Porque donde no hay opciones, no hay libertad.</p>
-            <img src={image} alt=''></img>
+            <p className='landing-two-div-three-text'>Queremos que Heura® llegue cada vez a más mercados. Porque donde no hay opciones, no hay libertad.</p>
+            <img src={image} alt='' className='landing-two-div-three-image'></img>
           </div>      
         </Carousel>
       </div>
       </div>
 
-      <div className={color ?  'landing-two-div-four-bg': 'landing-two-div-four'}>
+      <div>
         <h2 className='landing-two-div-four-title'>¡el primer crowd equity demostró que si nos juntamos somos capaces <span className='four-span'>de todo!</span></h2>
         <div className='landing-two-div-four-divs'>
           <div className='landing-two-div-four-divs-p'>

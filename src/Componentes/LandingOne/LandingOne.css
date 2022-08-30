@@ -11,10 +11,13 @@
         align-items: center;
         justify-content: space-between;
         width: 100%;
+        position: sticky;
+        top: 0px;
+        background-color: #f9e021;
     }
-    .landing-one img {
+    /*.landing-one img {
         margin-left: 18px;
-    }
+    }*/
     .landing-one-header-right {
         display: flex;
         align-items: center;

@@ -11,6 +11,8 @@
     }
     .landing-two-secondbg {
         background-color: #f9e021;
+        width: 100%;
+        position: relative;
         
     }
     .landing-two-h2-underline {
@@ -28,6 +30,7 @@
         width: 90%;
         margin-left: auto;
         margin-right: auto;
+        padding-top: 20px;
     }
     .landing-two-div-second {
         padding-top: 80px;
@@ -40,6 +43,32 @@
         width: 90%;
         margin-left: auto;
         margin-right: auto;
+    }
+    .landing-two-div-three-group {
+        margin-bottom: 24px;
+    }
+    .landing-two-div-three-title {
+        text-transform: uppercase;
+        background-color: white;
+        color: #222;
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+    .landing-two-div-three-image {
+        margin-top: 24px;
+    }
+    .landing-two-div-three-container {
+        width: 100%;
+        margin-right: 40px;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+    .landing-two-div-three-text {
+        font-family: 'Poppins-Regular';
+        font-size: 14px;
+        line-height: 24px;
+
     }
     .landing-two-div-four {
         padding-top: 120px;

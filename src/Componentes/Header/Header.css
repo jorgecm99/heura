@@ -18,8 +18,34 @@
         padding: 18px 18px;
     }
 
-    video {
+    .video-mobile {
+        display: none;
         position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%; 
+        height: 100vh;
+        object-fit: fill;
+        z-index: -1;
+    }
+    .header-video-btn {
+        position: absolute;
+        top: 20px;
+        right: 24px;
+        border-radius: 7px;
+        border: 2px white solid;
+        color: white;
+        font-family: 'Poppins-Regular';
+        font-size: 14px;
+        background-color: transparent;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 500;
+        cursor: pointer;
+        padding: 0 20px;
+        height: 42px;
     }
 
     .last-text {
@@ -114,4 +140,67 @@
         
     }
 
+    /*************MODAL*********************/
+    .modal-container {
+        position: relative;
+        max-width: 548px;
+        width: 60%;
+        background: #fdf7d4;
+        border-radius: 8px;
+        padding: 39px 25px;
+    }
+    .modal-title {
+        text-transform: uppercase;
+        color: rgb(34, 34, 34)
+    }
+    .modal-group {
+        display: block;
+
+    }
+    .modal-group-btn {
+        color: #fff;
+        width: 100%;
+        border-radius: 7px;
+        padding: 0 20px;
+        height: 42px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        cursor: pointer;
+        font-family: 'Poppins-Regular';
+        font-size: 14px;
+        background-color: rgb(34, 34, 34);
+        border: none;
+    }
+    .modal-copy-group {
+        margin-top: 29px;
+        display: flex;
+        align-items: center;
+    }
+    .modal-ytb {
+        font-size: 14px;
+        font-family: 'Poppins-Regular';
+        background: #f9e021;
+        padding: 6px 16px;
+        border-radius: 10px;
+        font-weight: bold;
+        margin-right: 17px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .modal-copy-btn {
+        background-color: #fdf7d4;
+        color: #222;
+        font-family: 'Poppins-Regular';
+        border: none;
+        font-weight: bold;
+    }
+    .modal-copied {
+        color: #f9e021;
+        font-family: 'Poppins-Regular';
+        font-size: 12px;
+
+    }
 }
