@@ -60,17 +60,17 @@ export default function Header () {
 
                 <div className='header-text'>
                     <div>
-                        <h3 className='header-title'>FOOTBALL FANS TO DISCOVER NEW EXPERIENCES{' '}
+                        <h3 className='header-title'>FOOTBALL FANS TO {' '}
                         <Typical
                             loop={Infinity}
                             wrapper="span"
                             steps={[
-                                'sostenible', 1000, 
-                                'justo', 1000,
-                                'delicioso', 1000,
-                                'saludable', 1000
+                                'discover', 1000, 
+                                'enjoy', 1000,
+                                'create', 1000
+                                
                             ]}
-                            />
+                            /> NEW EXPERIENCES
                             </h3>
                         <button className='btn-home'><a target="_blank" rel="noopener noreferrer" href='https://www.crowdcube.com/companies/heura-foods-for-tomorrow/pitches/lEm9rl'>Invierte ahora</a></button>
                         {/* <p className='header-subtitle'>Capital en riesgo</p> */}

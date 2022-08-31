@@ -7,7 +7,7 @@
 
     }
     .landing-two-mainbg {
-        background-color: #fdf7d4;
+        background-color: #121212;
         transition: 1s;
         padding-bottom: 20px;
     }
@@ -22,11 +22,23 @@
         text-decoration: underline #03FF95 6px solid;
         text-underline-offset: 4px;
     }
+    .landing-two-block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .landing-two-p {
         font-family: 'Poppins-Light';
         font-size: 14px;
         line-height: 1.6;
         color: white;
+        margin-bottom: 50px;
+    }
+
+    .landing-two-img {
+        width: 300px;
+        
     }
     .landing-two-div-one {
         width: 90%;
@@ -50,11 +62,12 @@
         margin-bottom: 24px;
     }
     .landing-two-div-three-title {
-        text-transform: uppercase;
-        background-color: white;
-        color: #222;
+        text-transform: uppercase;        
+        color: white;
         margin-top: 4px;
         margin-bottom: 4px;
+        Line-height: 40px;
+        font-weight: 900;
     }
     .landing-two-div-three-image {
         margin-top: 24px;
@@ -66,6 +79,8 @@
         flex-direction: column;
         text-align: left;
     }
+
+   
     .landing-two-div-three-text {
         font-family: 'Poppins-Regular';
         font-size: 14px;
@@ -91,17 +106,32 @@
         text-transform: uppercase;
         color: white;
         text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+        padding: 40px 20px;   
     }
+
     .four-span {
         color: #222;
-        text-decoration: underline white 4px solid;
+        text-decoration: underline white 4px solid;         
     }
+
     .landing-two-div-four-divs {
-        padding-top: 40px;
+        padding-top: 10px;
     }
     .landing-two-div-four-divs-p {
         display: flex;
         margin-bottom: 25px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Poppins-Light';
+        font-size: 14px;
+        line-height: 24px;
+        padding-top: 1px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
     }
     .last-span {
@@ -115,7 +145,18 @@
         display: none;
     }
     .landing-two-div-four-container {
-        display: none;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .landing-two-div-four-divs-p{
+        flex-direction: column;
+    }
+
+    .carousel .slide img {
+        width: 50px;
+        
+        
     }
     
 }
@@ -144,12 +185,24 @@
         
         
     }
+    .landing-two-block{
+        display: flex;
+        justify-content: space-between;
+    }
+
     .landing-two-p {
         font-family: 'Poppins-Light';
-        font-size: 14px;
+        font-size: 20px;
         line-height: 1.6;
         color: white;
+        width: 30%;        
     }
+
+    .landing-two-img{
+        margin-right: 100px;
+    }
+
+
     .landing-two-mainbg {
         background-color: #121212;
         transition: 1s;
@@ -187,11 +240,12 @@
         margin-bottom: 24px;
     }
     .landing-two-div-three-title {
-        text-transform: uppercase;
-        background-color: white;
-        color: #222;
+        text-transform: uppercase;        
+        color: white;
         margin-top: 4px;
         margin-bottom: 4px;
+        Line-height: 40px;
+        font-weight: 900;
     }
     .landing-two-div-three-image {
         margin-top: 24px;
@@ -204,6 +258,8 @@
         text-align: left;
         padding-bottom: 200px;
     }
+
+
     .landing-two-div-three-text {
         font-family: 'Poppins-Regular';
         font-size: 14px;
@@ -220,8 +276,8 @@
     .landing-two-div-four-container {
         position: relative;
         width: 100%;
-        padding: 180px 0 32px;
-        background-color: #f9e021;
+        padding: 100px 0 32px;
+        background-color: #03FF95;
     }
     .landing-two-div-four {
         padding-top: 120px;
@@ -249,7 +305,8 @@
     }
     .four-span {
         color: #222;
-        text-decoration: underline white 4px solid;
+        text-decoration: underline white 6px solid;
+        
     }
     .landing-two-div-four-divs {
         display: flex;
@@ -259,18 +316,22 @@
     .landing-two-div-four-divs-p {
         display: flex;
         align-items: flex-start;
+        justify-content: space-evenly;
+        align-items: center;
         margin-bottom: 25px;
         color: #222;
         font-size: 16px;
         padding: 0 32px;
-        width: 30%;
+        
     }
     .landing-two-div-four-divs-p p {
         margin-top: 0;
         margin-left: 10px;
+        width: 40%;
+        font-size: 24px;
     }
     .landing-two-div-four-image {
-        width: 40px;
+        width: 300px;
     }
     .last-span {
         color: #222;

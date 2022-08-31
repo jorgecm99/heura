@@ -4,6 +4,10 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from 'react-responsive-carousel';
 import  './LandingTwo.css';
 import image from '../../Assets/Images/image1.png';
+import gafas from '../../Assets/Images/Imagen-gafas 1.png';
+import icono from '../../Assets/Images/Vector.svg';
+import google from '../../Assets/Images/google.png';
+import lanzadera from '../../Assets/Images/lanzadera.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
@@ -39,12 +43,13 @@ const LandingTwo = () => {
       <div className={ color ? 'landing-two-mainbg' : 'landing-two-seconbg'}>
       <div className='landing-two-div-one'>
         <h2 className='landing-two-h2-underline'>WHAT?</h2>
-        <p className='landing-two-p'>Somos una startup de Barcelona con una misión. Nos dedicamos a desarrollar sucesores de la carne 
-          de origen vegetal y a construir una comunidad global de personas revolucionarias dispuestas a 
-          sensibilizar al resto del mundo.</p>
+        <div className='landing-two-block'>
+          <p className='landing-two-p'>We’re a Madrid-based mission-driven start-up developing and selling football experiences for 17 clubs and growing!. Bstadium provides fans the possibility of living exclusive physical and virtual experiences via the marketplace bstadium.es.</p>
+          <img className='landing-two-img' src={gafas} alt=''></img>
+        </div>
       </div>
 
-      <div data-aos="fade-up" data-aos-duration="2000" className='landing-two-div-second'>
+     {/*  <div data-aos="fade-up" data-aos-duration="2000" className='landing-two-div-second'>
         <h2 className='landing-two-h2-underline'>¿porqué lo hacemos?</h2>
         <Carousel showArrows={false} showIndicators={false} showStatus={false} showThumbs={false}>
           <img src={image} alt=''></img>
@@ -52,9 +57,9 @@ const LandingTwo = () => {
           <img src={image} alt=''></img>
           <img src={image} alt=''></img>
         </Carousel>
-      </div>
+      </div> */}
 
-      <div data-aos="fade-up" data-aos-duration="2000" className='landing-two-div-second-desktop'>
+      {/* <div data-aos="fade-up" data-aos-duration="2000" className='landing-two-div-second-desktop'>
         <h2 className='landing-two-h2-underline'>¿porqué lo hacemos?</h2>
         <div className='landing-two-div-second-desktop-images'>
           <img src={image} alt='' className='image-carousel'></img>
@@ -62,63 +67,68 @@ const LandingTwo = () => {
           <img src={image} alt='' className='image-carousel'></img>
           <img src={image} alt='' className='image-carousel'></img>
         </div>
-      </div>
+      </div> */}
 
       <div className='landing-two-div-three'>
-        <h2 className='landing-two-h2-underline'>¿como lo hacemos?</h2>
-        <p><strong>Nuestra contribución a un mundo mejor:</strong></p>
+        <h2 className='landing-two-h2-underline'>How?</h2>
+        {/* <p><strong>Nuestra contribución a un mundo mejor:</strong></p> */}
+        
         <Carousel showStatus={false} showThumbs={false} showIndicators={false} showArrows={false}>
-
           <div className='landing-two-div-three-container'>
+            <img src={icono} alt='' className='landing-two-div-three-image' style={{width:50, marginBottom:20}}></img>
             <div className='landing-two-div-three-group'>
-              <h2 className='landing-two-div-three-title'>tecnología mediterránea</h2>
-              <h2 className='landing-two-div-three-title'>de primer nivel</h2>
+              <h2 className='landing-two-div-three-title'>MIND BLOWING <br /> EXPERIENCES</h2>
+              
             </div>
-            <p className='landing-two-div-three-text'>Aprovechamos nuestra herencia mediterránea para desarrollar productos vegetales saludables y
-               deliciosos: todos los productos cárnicos que nos encantan, pero con efectos beneficiosos para
-                el planeta, los animales y nuestra salud.
-            </p>
-            <img src={image} alt='' className='landing-two-div-three-image'></img>
+            <p className='landing-two-div-three-text'>Attractive experiences of all types (matches, tours, training, events…) using  tech (AR,/VR) and physical resources (stadium, players..)</p>            
           </div>
 
           <div className='landing-two-div-three-container'>
+            <img src={icono} alt='' className='landing-two-div-three-image' style={{width:50, marginBottom:20}}></img>
             <div className='landing-two-div-three-group'>
-              <h2 className='landing-two-div-three-title'>una comunidad de good</h2>
-              <h2 className='landing-two-div-three-title'>rebels</h2>
+              <h2 className='landing-two-div-three-title'>EVERY DAY EXCLUSIVE <br />EXPERIENCES</h2>
+              
             </div>
-            <p className='landing-two-div-three-text'>Nuestra comunidad sigue creciendo para convertirse en un movimiento global y transformador de 
-              Good Rebels desde el empoderamiento y la información.</p>
-            <img src={image} alt='' className='landing-two-div-three-image'></img>
-          </div>  
+            <p className='landing-two-div-three-text'>Creating exclusive sales of our experience with partner clubs in match and non match days</p>
+          </div>
 
           <div className='landing-two-div-three-container'>
+            <img src={icono} alt='' className='landing-two-div-three-image' style={{width:50, marginBottom:20}}></img>
             <div className='landing-two-div-three-group'>
-              <h2 className='landing-two-div-three-title'>expansión internacional</h2>
-              <h2 className='landing-two-div-three-title'>y democratización de</h2>
-              <h2 className='landing-two-div-three-title'>productos</h2>
+              <h2 className='landing-two-div-three-title'>REACHING THE FOOTBALL<br />  COMMUNITY</h2>
+              
             </div>
-            <p className='landing-two-div-three-text'>Queremos que Heura® llegue cada vez a más mercados. Porque donde no hay opciones, no hay libertad.</p>
-            <img src={image} alt='' className='landing-two-div-three-image'></img>
-          </div>      
+            <p className='landing-two-div-three-text'>Having direct too loyal fans who are willing to buy products with the support of clubs. <br />Internationalisation expansion. <br />Expanding our offering worldwide and adding new clubs to our marketplace</p>            
+          </div>
+
+
+              
         </Carousel>
       </div>
       </div>
 
       <div className='landing-two-div-four-container'>
-        <h2 className='landing-two-div-four-title'>¡el primer crowd equity demostró que si nos juntamos somos capaces <span className='four-span'>de todo!</span></h2>
+        <h2 className='landing-two-div-four-title landing-two-h2-new-underline'> <span className='four-span'>WINNERS!</span> </h2>
         <div className='landing-two-div-four-divs'>
-          <div className='landing-two-div-four-divs-p'>
-            <img src={image} alt='' className='landing-two-div-four-image'></img>
-            <p>Terminamos la 1ª ronda en <span className='last-span'>16 horas</span></p>
-          </div>
-          <div className='landing-two-div-four-divs-p'>
-            <img src={image} alt='' className='landing-two-div-four-image'></img>
-            <p><span className='last-span'>2778 personas,</span> 41% mujeres, 50% de 18 a 30 años</p>
-          </div>
-          <div className='landing-two-div-four-divs-p'>
+          <div className='landing-two-div-four-divs-p'>            
+            <p><b>First prize of competition 2021!</b> <br /> Thanks for the trust of our clients and club partners we showcase in this competition our new experiences and how fans are enjoying them!</p>
+            <img src={google} alt='' className='landing-two-div-four-image'></img>
+          </div>          
+          {/* <div className='landing-two-div-four-divs-p'>
             <img src={image} alt='' className='landing-two-div-four-image'></img>
             <p><span className='last-span'>3,98M€</span> de 2778 Good Rebels</p>
-          </div>
+          </div> */}
+        </div>
+        <div className='landing-two-div-four-divs'>
+          <div className='landing-two-div-four-divs-p'>            
+          <img src={lanzadera} alt='' className='landing-two-div-four-image'></img>
+            <p>Bstadium has joined the growth accelerator program of Lanzadera, the biggest startups hub in Spain.</p>
+            
+          </div>          
+          {/* <div className='landing-two-div-four-divs-p'>
+            <img src={image} alt='' className='landing-two-div-four-image'></img>
+            <p><span className='last-span'>3,98M€</span> de 2778 Good Rebels</p>
+          </div> */}
         </div>  
       </div>
       
@@ -129,16 +139,15 @@ const LandingTwo = () => {
       <Carousel showStatus={false} showThumbs={false} showIndicators={false} showArrows={false} autoPlay interval="3000" infiniteLoop transitionTime="3000" >
         <div className='landing-two-div-last-group'>
           <img src={image} alt='' className='landing-two-div-last-img'></img>
-          <p>"Heura: El exitoso negocio que une a varios futbolistas españoles."</p>
+          <p>"The Spanish company that brings sports closer to fans during the pandemic"</p>
         </div>
         <div className='landing-two-div-last-group'>
           <img src={image} alt='' className='landing-two-div-last-img'></img>
-          <p>"El ex futbolista del Manchester United Chris Smalling invierte en la empresa de carne de origen 
-            vegetal Heura"</p>
+          <p>"To deseasonalize and democratize the consumption of sports through the experiences offered in its marketplace"</p>
         </div>
         <div className='landing-two-div-last-group'>
           <img src={image} alt='' className='landing-two-div-last-img'></img>
-          <p>"Los futbolistas Cesc Fábregas, Saúl Ñíguez, Borja Iglesias y Sergi Roberto entran como inversores en Heura"</p>
+          <p>""Bstadium the innovative market place of sports leisure""</p>
         </div>
         <div className='landing-two-div-last-group'>
           <img src={image} alt='' className='landing-two-div-last-img'></img>
