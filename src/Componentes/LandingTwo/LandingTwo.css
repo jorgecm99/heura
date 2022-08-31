@@ -1,7 +1,9 @@
+/************************MOBILE**************************************/
 @media only screen and (max-width: 859px) {
     .landing-two {
         width: 100%;
         position: relative;
+        background-color: #fdf7d4;
 
     }
     .landing-two-mainbg {
@@ -12,8 +14,7 @@
     .landing-two-secondbg {
         background-color: #f9e021;
         width: 100%;
-        position: relative;
-        
+        position: relative;    
     }
     .landing-two-h2-underline {
         text-transform: uppercase;
@@ -108,7 +109,190 @@
     .landing-two-div-last {
         background-image: url(../../Assets/Images/recuadro.png);
     }
-
-
+    .landing-two-div-second-desktop-images {
+        display: none;
+    }
+    .landing-two-div-four-container {
+        display: none;
+    }
     
+}
+
+/******************************DESKTOP*********************************************/
+@media only screen and (min-width: 859px) {
+    .landing-two {
+        width: 100%;
+        position: relative;
+        background-color: #fdf7d4;
+    }
+    .landing-two-div-one {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+    }
+    .landing-two-h2-underline {
+        text-transform: uppercase;
+        color: #222;
+        text-decoration: underline #f9e021 4px solid;
+        text-underline-offset: 4px;
+        margin-bottom: 42px;
+    }
+    .landing-two-p {
+        font-family: 'Poppins-Light';
+        font-size: 14px;
+        line-height: 1.6;
+    }
+    .landing-two-mainbg {
+        background-color: #fdf7d4;
+        transition: 1s;
+        padding-bottom: 20px;
+    }
+    .landing-two-secondbg {
+        background-color: #f9e021;
+        width: 100%;
+        position: relative;    
+    }
+    .landing-two-div-second {
+        display: none;
+    }
+    .landing-two-div-second-desktop {
+        padding-top: 80px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .landing-two-div-second-desktop-images {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /*.carousel {
+        display: none;
+    }*/
+    .landing-two-div-three {
+        padding-top: 80px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .landing-two-div-three-group {
+        margin-bottom: 24px;
+    }
+    .landing-two-div-three-title {
+        text-transform: uppercase;
+        background-color: white;
+        color: #222;
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+    .landing-two-div-three-image {
+        margin-top: 24px;
+    }
+    .landing-two-div-three-container {
+        width: 50%;
+        margin-right: 40px;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        padding-bottom: 200px;
+    }
+    .landing-two-div-three-text {
+        font-family: 'Poppins-Regular';
+        font-size: 14px;
+        line-height: 24px;
+
+    }
+    .image-carousel {
+        max-width: 148px;
+        display: block;
+        width: 11.88755%;
+        margin-right: 84px;
+    }
+    .landing-two-div-four-container {
+        position: relative;
+        width: 100%;
+        padding: 180px 0 32px;
+        background-color: #f9e021;
+    }
+    .landing-two-div-four {
+        padding-top: 120px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #fdf7d4;
+    }
+    .landing-two-div-four-bg {
+        padding-top: 120px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #f9e021;
+    }
+    .landing-two-div-four-title {
+        text-transform: uppercase;
+        color: white;
+        text-align: center;
+        margin-bottom: 48px;
+        font-size: 40px;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .four-span {
+        color: #222;
+        text-decoration: underline white 4px solid;
+    }
+    .landing-two-div-four-divs {
+        display: flex;
+        justify-content: center;
+        padding: 40px 40px 0 40px;
+    }
+    .landing-two-div-four-divs-p {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 25px;
+        color: #222;
+        font-size: 16px;
+        padding: 0 32px;
+        width: 30%;
+    }
+    .landing-two-div-four-divs-p p {
+        margin-top: 0;
+        margin-left: 10px;
+    }
+    .landing-two-div-four-image {
+        width: 40px;
+    }
+    .last-span {
+        color: #222;
+        font-weight: bold;
+        text-decoration: underline white 2px solid;
+    }
+    .landing-two-div-last {
+        position: relative;
+        background-image: url(../../Assets/Images/recuadro.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .landing-two-div-last p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .landing-two-div-last-img {
+        width: 100px;
+    }
+    .landing-two-div-last-group {
+        width: 25vw;
+        text-align: left;
+        display: block;
+        justify-content: flex-start;
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .carousel .slide img {
+        width: 20%;
+        vertical-align: top;
+        border: 0
+    }
 }

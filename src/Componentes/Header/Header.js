@@ -51,6 +51,15 @@ export default function Header () {
 
                     </div>
 
+                    <div className='dropdown-content-desktop'>
+                        <li onClick={() => scrollTo('.landing-one-text')}>Misión</li>
+                        <li onClick={() => scrollTo('.landing-two-div-one')}>Game changers</li>
+                        <li onClick={() => scrollTo('.landing-three-title')}>Últimos 12 meses</li>
+                        <li>Productos</li>
+                        <li>Press</li>
+                        <li>FAQS</li>
+                    </div>
+
                 </nav>
 
                 <div className='header-text'>
@@ -78,7 +87,7 @@ export default function Header () {
                             futuro mejor para el planeta, las personas y los animales.
                         </p>
                         <p>
-                            Hace un año abrimos el <span className='span-style'>1er Equity for Good Rebels</span>y en un momento alucinante 
+                            Hace un año abrimos el <span className='span-style'>1er Equity for Good Rebels </span>y en un momento alucinante 
                             superamos nuestro objetivo inicial!
                         </p>
                     </div>

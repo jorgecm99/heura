@@ -54,10 +54,20 @@ const LandingTwo = () => {
         </Carousel>
       </div>
 
+      <div data-aos="fade-up" data-aos-duration="2000" className='landing-two-div-second-desktop'>
+        <h2 className='landing-two-h2-underline'>¿porqué lo hacemos?</h2>
+        <div className='landing-two-div-second-desktop-images'>
+          <img src={image} alt='' className='image-carousel'></img>
+          <img src={image} alt='' className='image-carousel'></img>
+          <img src={image} alt='' className='image-carousel'></img>
+          <img src={image} alt='' className='image-carousel'></img>
+        </div>
+      </div>
+
       <div className='landing-two-div-three'>
         <h2 className='landing-two-h2-underline'>¿como lo hacemos?</h2>
         <p><strong>Nuestra contribución a un mundo mejor:</strong></p>
-        <Carousel showStatus={false} showThumbs={false} showIndicators={false}>
+        <Carousel showStatus={false} showThumbs={false} showIndicators={false} showArrows={false}>
 
           <div className='landing-two-div-three-container'>
             <div className='landing-two-div-three-group'>
@@ -94,19 +104,19 @@ const LandingTwo = () => {
       </div>
       </div>
 
-      <div>
+      <div className='landing-two-div-four-container'>
         <h2 className='landing-two-div-four-title'>¡el primer crowd equity demostró que si nos juntamos somos capaces <span className='four-span'>de todo!</span></h2>
         <div className='landing-two-div-four-divs'>
           <div className='landing-two-div-four-divs-p'>
-            <img src={image} alt=''></img>
+            <img src={image} alt='' className='landing-two-div-four-image'></img>
             <p>Terminamos la 1ª ronda en <span className='last-span'>16 horas</span></p>
           </div>
           <div className='landing-two-div-four-divs-p'>
-            <img src={image} alt=''></img>
+            <img src={image} alt='' className='landing-two-div-four-image'></img>
             <p><span className='last-span'>2778 personas,</span> 41% mujeres, 50% de 18 a 30 años</p>
           </div>
           <div className='landing-two-div-four-divs-p'>
-            <img src={image} alt=''></img>
+            <img src={image} alt='' className='landing-two-div-four-image'></img>
             <p><span className='last-span'>3,98M€</span> de 2778 Good Rebels</p>
           </div>
         </div>  
@@ -117,21 +127,21 @@ const LandingTwo = () => {
       
       <div className='landing-two-div-last'>
       <Carousel showStatus={false} showThumbs={false} showIndicators={false} showArrows={false} autoPlay interval="3000" infiniteLoop transitionTime="3000" >
-        <div>
-          <img src={image} alt=''></img>
+        <div className='landing-two-div-last-group'>
+          <img src={image} alt='' className='landing-two-div-last-img'></img>
           <p>"Heura: El exitoso negocio que une a varios futbolistas españoles."</p>
         </div>
-        <div>
-          <img src={image} alt=''></img>
+        <div className='landing-two-div-last-group'>
+          <img src={image} alt='' className='landing-two-div-last-img'></img>
           <p>"El ex futbolista del Manchester United Chris Smalling invierte en la empresa de carne de origen 
             vegetal Heura"</p>
         </div>
-        <div>
-          <img src={image} alt=''></img>
+        <div className='landing-two-div-last-group'>
+          <img src={image} alt='' className='landing-two-div-last-img'></img>
           <p>"Los futbolistas Cesc Fábregas, Saúl Ñíguez, Borja Iglesias y Sergi Roberto entran como inversores en Heura"</p>
         </div>
-        <div>
-          <img src={image} alt=''></img>
+        <div className='landing-two-div-last-group'>
+          <img src={image} alt='' className='landing-two-div-last-img'></img>
           <p>"La campaña de crowdfunding de Heura capta 4 millones de más de 3.000 inversores en un día."</p>
         </div>
         </Carousel>
