@@ -1,6 +1,6 @@
 @media only screen and (max-width: 859px) { /**********************MOBILE***************************/
     .header {
-        background: #222;
+        background: #121212;
         position: relative;
         top: 0;
         left: 0;
@@ -59,7 +59,7 @@
     }
     span {
         font-weight: bold;
-        color: #f9e021;
+        color: #03FF95;
     }
     .header-title {
         text-transform: uppercase;
@@ -74,7 +74,7 @@
         margin-bottom: 6px;
     }
     .btn-home {
-        background-color: #f9e021;
+        background-color: #2FFF99;
         border-radius: 7px;
         padding: 0 20px;
         height: 42px;
@@ -106,7 +106,7 @@
         color: white;
     }
     .dropdown-content {
-        background-color: #222;
+        background-color: #121212;
         /*display: none;*/
         position: absolute;
         z-index: 1;
@@ -116,6 +116,7 @@
         right: 0;
         padding-left: 40px;
         padding-right: 40px;
+        height: 100vh;
 
     }
     .dropdown-content li {
@@ -215,7 +216,7 @@
 /****************************DESKTOP***********************************************/
 @media only screen and (min-width: 860px) {
     .header {
-        background: #222;
+        background: #121212;
         position: relative;
         top: 0;
         left: 0;
@@ -255,7 +256,8 @@
         align-items: center;
         cursor: pointer;
         position: absolute;
-        left: 50%;
+        left: 80%;
+        width: 100%;
         transform: translate3d(-50%,0,0);
         
     }
@@ -309,7 +311,7 @@
         color: white;
         margin-top: 0;
         margin-bottom: 40px;
-        font-size: 36px;
+        font-size: 55px;
         width: 130%;
 
     }
@@ -322,7 +324,7 @@
         line-height: 20px;
     }
     .btn-home {
-        background-color: #f9e021;
+        background-color: #2FFF99;
         border-radius: 7px;
         padding: 0 20px;
         height: 42px;
@@ -343,6 +345,6 @@
     }
     span {
         font-weight: bold;
-        color: #f9e021;
+        color: #03FF95;
     }
 }

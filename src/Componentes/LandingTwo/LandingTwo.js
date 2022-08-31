@@ -38,7 +38,7 @@ const LandingTwo = () => {
     <div className='landing-two'>
       <div className={ color ? 'landing-two-mainbg' : 'landing-two-seconbg'}>
       <div className='landing-two-div-one'>
-        <h2 className='landing-two-h2-underline'>¿quienes somos?</h2>
+        <h2 className='landing-two-h2-underline'>WHAT?</h2>
         <p className='landing-two-p'>Somos una startup de Barcelona con una misión. Nos dedicamos a desarrollar sucesores de la carne 
           de origen vegetal y a construir una comunidad global de personas revolucionarias dispuestas a 
           sensibilizar al resto del mundo.</p>

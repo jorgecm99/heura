@@ -3,7 +3,8 @@ import './LandingOne.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDown} from '@fortawesome/free-solid-svg-icons';
 import { faAngleUp} from '@fortawesome/free-solid-svg-icons';
-import image from '../../Assets/Images/image1.png';
+import logo from '../../Assets/Images/image1.png';
+import image from '../../Assets/Images/google-team.png';
 
 
 const LandingOne = () => {
@@ -19,7 +20,7 @@ const LandingOne = () => {
             <div className='landing-one'>
 
                 <nav className='landing-one-header'>
-                    <img src={image} alt=''></img>
+                    <img src={logo} alt=''></img>
                     <div className='landing-one-header-right'>
                     <div className='landing-dropdown'>
                         <div className='landing-dropdown-icon'>
@@ -34,10 +35,8 @@ const LandingOne = () => {
                             isMenuOpen ? 
                                 <div className='landing-dropdown-content'>
                                     <li onClick={() => scrollTo('.landing-one-text')}>Misión</li>
-                                    <li onClick={() => scrollTo('.landing-two-div-one')}>Game changers</li>
-                                    <li onClick={() => scrollTo('.landing-three-title')}>Últimos 12 meses</li>
-                                    <li>Productos</li>
-                                    <li>Press</li>
+                                    <li onClick={() => scrollTo('.landing-two-div-one')}>Nuestros Valores</li>
+                                    <li onClick={() => scrollTo('.landing-three-title')}>Últimos 12 meses</li>                                    
                                     <li>FAQS</li>
                                 </div> : null
                 }
@@ -45,10 +44,8 @@ const LandingOne = () => {
 
                 <div className='landing-dropdown-content-desktop'>
                                     <li onClick={() => scrollTo('.landing-one-text')}>Misión</li>
-                                    <li onClick={() => scrollTo('.landing-two-div-one')}>Game changers</li>
-                                    <li onClick={() => scrollTo('.landing-three-title')}>Últimos 12 meses</li>
-                                    <li>Productos</li>
-                                    <li>Press</li>
+                                    <li onClick={() => scrollTo('.landing-two-div-one')}>Nuestros Valores</li>
+                                    <li onClick={() => scrollTo('.landing-three-title')}>Últimos 12 meses</li>                                    
                                     <li>FAQS</li>
                                 </div>
 
@@ -59,33 +56,29 @@ const LandingOne = () => {
 
                 <div className='landing-one-container'>
                     <div className='landing-one-container-text'>
-                        <div className='landing-one-text'>
                             <div>
-                                <h2 className='landing-one-title'>invierte en un futuro (alimentario) mejor a través de una empresa<span className='landing-one-title-underline'> creada con una misión</span></h2>
-                            </div>
-                        <div className='landing-one-last-text'>
-                            <p>
-                            Existimos para empoderar a las personas para <strong>transformar el sistema alimentario </strong> 
-                            actual en uno más sostenible, minimizando el uso de los recursos de nuestro planeta y protegiendo 
-                            a los animales, el medio ambiente y nuestra salud.
-                            </p>
-                            <p>
-                            Estamos de regreso para ofrecer una vez más la oportunidad a la comunidad de Good Rebel de invertir en 
-                            Heura y unirse a nosotros en nuestro viaje a medida que crecemos.
-                            </p>
+                                <h2 className='landing-one-title'>Invest in generating new experiences for your favourite sport by a  <span className='landing-one-title-underline'> mission made company</span></h2>
+                            </div> 
+                        <div className='landing-one-text'>
+                            {/* <div>
+                                <h2 className='landing-one-title'>Invest in generating new experiences for your favourite sport by a  <span className='landing-one-title-underline'> mission made company</span></h2>
+                            </div>    */}                                 
+                            <div className='landing-one-last-text'>
+                                <p>We exist to surprise fans all over the world with our ¨never seen before¨ experiences mixing the reality with the virtual world to create this WOW effect experiences for clubs such as Real Madrid or FC Barcelona.</p>
+                                <p>Take the opportunity to invest and create mind blowing experiences for +100 millions football fans only in LaLiga. Join us on our journey as we grow with + 3000 sold experiences only in the last 9 months!</p>
+                            </div>  
+                            <div className='landing-one-img'>
+                                <img src={image} alt='' /* style={{width:290}} */></img>
+                            </div>                  
                         </div>
-                    
-                    </div>
-                        <div className='landing-btn-group' >
+                       {/*  <div className='landing-btn-group' >
                             <button className='landing-one-btn'><a target="_blank" rel="noopener noreferrer" href='https://www.crowdcube.com/companies/heura-foods-for-tomorrow/pitches/lEm9rl'>Invierte ahora</a></button>
                             <p className='landing-one-subtitle'>Capital en riesgo</p>
-                        </div>
+                        </div> */}
                     </div>
                 
 
-                        <div className='landing-one-img'>
-                            <img src={image} alt='' style={{width:290}}></img>
-                        </div>
+                  
 
                 </div>
 

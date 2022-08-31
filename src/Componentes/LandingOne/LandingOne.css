@@ -1,7 +1,7 @@
 /***********************MOBILE****************************************/
 @media only screen and (max-width: 859px) {
     .landing-one {
-        background: #f9e021;
+        background: #03FF95;
         width: 100%;
         text-align: center;
         position: relative;
@@ -14,7 +14,7 @@
         width: 100%;
         position: sticky;
         top: 0;
-        background-color: #f9e021;
+        background-color: #121212;
     }
     /*.landing-one img {
         margin-left: 18px;
@@ -25,8 +25,8 @@
         margin-right: 18px;
     }
     .btn-landing {
-        background-color: #222;
-        color: white;
+        background-color: #03FF95;
+        color: #121212;
         font-family: 'Poppins-Light';
         font-size: 12px;
         font-weight: bold;
@@ -41,7 +41,7 @@
     }
     a {
         text-decoration: none;
-        color: white;
+        color: #121212;
     }
     .landing-one-text {
         width: 80%;
@@ -50,12 +50,16 @@
         font-family: 'Poppins-Light';
         font-size: 14px;
         line-height: 24px;
-        padding-top: 120px;
+        padding-top: 1px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .landing-one-title {
         text-transform: uppercase;
         color: white;
         margin-bottom: 30px;
+        padding: 40px 20px;
     }
     .landing-one-title-underline {
         color: #222;
@@ -93,6 +97,11 @@
     .landing-one-img {
         margin-top: 50px;
         padding-bottom: 80px;
+    }
+
+    .landing-one-img img {
+        width: 300px;
+        
     }
     .landing-dropdown-content {
         background-color: #f9e021;
@@ -138,7 +147,7 @@
 /********************************DESKTOP****************************************/
 @media only screen and (min-width: 860px) {
     .landing-one {
-        background: #f9e021;
+        background: #03FF95;
         width: 100%;
         position: relative;
     }
@@ -151,7 +160,7 @@
         /*width: 100%;*/
         position: sticky;
         top: 0;
-        background-color: #f9e021;
+        background-color: #121212;
         box-shadow: 0 0 1px rgb(0 0 0 / 15%);
     }
     .landing-one-header-right {
@@ -159,8 +168,8 @@
         align-items: center;
     }
     .btn-landing {
-        background-color: #222;
-        color: white;
+        background-color: #03FF95;
+        
         font-family: 'Poppins-Light';
         font-size: 12px;
         font-weight: bold;
@@ -173,9 +182,10 @@
         border: none;
         margin-left: 16px;
     }
+
     a {
         text-decoration: none;
-        color: white;
+        color: #121212;
     }
     .landing-dropdown-icon {
         display: none;
@@ -183,7 +193,7 @@
         z-index: 2;      
     }
     .landing-dropdown-content-desktop {
-        background-color: #f9e021;
+        background-color: #121212;
         /*display: none;*/
         /*position: absolute;
         z-index: 1;
@@ -201,7 +211,7 @@
     }
     .landing-dropdown-content-desktop li {
         list-style: none;
-        color: #222;
+        color: white;
         font-family: 'Poppins-Regular';
         font-size: 12px;
         font-weight: 600;
@@ -214,16 +224,19 @@
     }
     .landing-one-container {
         display: flex;
-        align-items: flex-start;
-        padding: 180px 0 32px;
+        align-items: center;
+        padding: 100px 0 180px 0;
     }
     .landing-one-container-text {
         display: block;
         margin-left: 40px;
         margin-right: 20px;
+        padding: 20px 80px;
     }
     .landing-one-text {
-        width: 80%;
+        display: flex;
+        align-items: center;
+        width: 100%;
         font-family: 'Poppins-Regular';
         font-size: 14px;
         line-height: 24px;
@@ -233,9 +246,10 @@
         color: white;
         margin-bottom: 48px;
         margin-top: 0;
-        font-size: 39px;
+        font-size: 55px;
         letter-spacing: -.4px;
         line-height: 1.08333em;
+        
     }
     .landing-one-title-underline {
         color: #222;
@@ -248,16 +262,17 @@
         font-size: 16px;
         font-family: 'Poppins-Regular';
         line-height: 28px;
+        width: 40%;
     }
     .landing-btn-group {
         margin-top: 60px;
     }
     .landing-one-btn {
         background-color: #222;
+        color: white;
         border-radius: 7px;
         padding: 0 20px;
         height: 42px;
-        color: white;
         font-weight: bold;
         font-family: 'Poppins-Light';
         font-size: 14px;
@@ -267,15 +282,25 @@
         cursor: pointer;
         border: none;
     }
+
+    .landing-one-btn a {
+        color: white;
+    }
+
+
     .landing-one-subtitle {
         font-family: 'Poppins-Light';
         font-size: 12px;
         color: white;
         line-height: 20px;
     }
-    .landing-one-img {
-        margin-left: 20px;
-        margin-right: 40px;
+    .landing-one-img {        
+        
+        margin: 0 auto;
+    }
+
+    .landing-one-img img{
+        width: auto;
     }
 
 }

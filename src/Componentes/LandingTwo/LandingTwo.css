@@ -3,7 +3,7 @@
     .landing-two {
         width: 100%;
         position: relative;
-        background-color: #fdf7d4;
+        background-color: #03FF95;
 
     }
     .landing-two-mainbg {
@@ -12,20 +12,21 @@
         padding-bottom: 20px;
     }
     .landing-two-secondbg {
-        background-color: #f9e021;
+        background-color: #121212;
         width: 100%;
         position: relative;    
     }
     .landing-two-h2-underline {
         text-transform: uppercase;
-        color: #222;
-        text-decoration: underline #f9e021 4px solid;
+        color: white;
+        text-decoration: underline #03FF95 6px solid;
         text-underline-offset: 4px;
     }
     .landing-two-p {
         font-family: 'Poppins-Light';
         font-size: 14px;
         line-height: 1.6;
+        color: white;
     }
     .landing-two-div-one {
         width: 90%;
@@ -69,6 +70,7 @@
         font-family: 'Poppins-Regular';
         font-size: 14px;
         line-height: 24px;
+        color: white;
 
     }
     .landing-two-div-four {
@@ -123,7 +125,7 @@
     .landing-two {
         width: 100%;
         position: relative;
-        background-color: #fdf7d4;
+        background-color: #03FF95;
     }
     .landing-two-div-one {
         width: 90%;
@@ -133,18 +135,23 @@
     }
     .landing-two-h2-underline {
         text-transform: uppercase;
-        color: #222;
-        text-decoration: underline #f9e021 4px solid;
+        color: white;
+        text-decoration: underline #03FF95 6px solid;
         text-underline-offset: 4px;
         margin-bottom: 42px;
+        font-size: 55px;
+        Line-height: 86.57px;        
+        
+        
     }
     .landing-two-p {
         font-family: 'Poppins-Light';
         font-size: 14px;
         line-height: 1.6;
+        color: white;
     }
     .landing-two-mainbg {
-        background-color: #fdf7d4;
+        background-color: #121212;
         transition: 1s;
         padding-bottom: 20px;
     }
@@ -201,6 +208,7 @@
         font-family: 'Poppins-Regular';
         font-size: 14px;
         line-height: 24px;
+        color: white;
 
     }
     .image-carousel {
