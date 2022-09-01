@@ -4,6 +4,8 @@ import './LandingThree.css';
 
 
 import desafioSevillaPitchmin from '../../Assets/Images/desafioSevillaPitchmin.jpg';
+import granada from '../../Assets/Images/tourgranada.jpg';
+import match from '../../Assets/Images/match-experience.png';
 
 
 const LandingThree = () => {
@@ -23,23 +25,37 @@ const LandingThree = () => {
       </div>
 
       <div className='landing-three-card-one' data-aos="fade-up" data-aos-duration="2000">
-        <h1 className='landing-three-card-one-title'>New</h1>
-        <h1 className='landing-three-card-two-black'>launching!</h1>
-          {/* <p style={{color:"white"}}>We have launched our <span className='strong-underline'>spectaculars experiences:</span></p> */}
-          <img src={desafioSevillaPitchmin} alt='' className='landing-two-div-three-image' style={{width:250,marginTop:20, marginBottom:20}}></img>
-      </div>      
+        <h1 className='landing-three-card-one-title'>Products</h1>             
+        <p style={{color:"white", lineHeight:2.2}}>We have launched our spectaculars experiences.</p>
+        
+        <div style={{marginTop:30}}>
+          <div style={{color:"#01FF95", textTransform:"uppercase"}}>Tour Interactivo Los Carmenes</div>
+          <img src={granada} alt='' className='landing-two-div-three-image' style={{width:250,marginTop:20, marginBottom:20, borderRadius:10}}></img>          
+        </div>
+
+        <div style={{marginTop:30}}>
+          <div style={{color:"#01FF95", textTransform:"uppercase"}}>MATCH EXPERIENCE</div>
+          <img src={match} alt='' className='landing-two-div-three-image' style={{width:250,marginTop:20, marginBottom:20, borderRadius:10}}></img>          
+        </div>
+        
+      </div>    
 
       <div className='landing-three-card-three' data-aos="fade-up" data-aos-duration="2000">
           <h1 className='landing-three-card-two-title'>New virtual</h1> 
           <h1 className='landing-three-card-two-black'>physical experiences</h1>
-          <p style={{color:"white"}}>Hemos conseguido el liderazgo de mercado en España: <strong>1ª marca plant-based <span className='strong-underline'>por rotación y cuota de mercado.</span></strong></p>
+          <img src={granada} alt='' className='landing-two-div-three-image' style={{width:250,marginTop:50, marginBottom:20, borderRadius:10}}></img>
       </div>
 
       <div className='landing-three-card-one' data-aos="fade-up" data-aos-duration="2000">
-        <h1 className='landing-three-card-one-title'>Products</h1>             
-        <p style={{color:"white", lineHeight:2.2}}>We have launched our spectaculars experiences.</p>
+        <h1 className='landing-three-card-one-title'>New</h1>
+        <h1 className='landing-three-card-two-black'>launching!</h1>
+          {/* <p style={{color:"white"}}>We have launched our <span className='strong-underline'>spectaculars experiences:</span></p> */}
+          <img src={desafioSevillaPitchmin} alt='' className='landing-two-div-three-image' style={{width:250,marginTop:30, marginBottom:20}}></img>
+      </div>      
+
+    
+
         
-      </div>       
       
 
     </div>
