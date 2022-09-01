@@ -73,7 +73,7 @@ export default function Header () {
                             ]}
                             /> NEW EXPERIENCES
                             </h3>
-                        <button className='btn-home'><a target="_blank" rel="noopener noreferrer" href='https://www.crowdcube.com/companies/heura-foods-for-tomorrow/pitches/lEm9rl'>Invierte ahora</a></button>
+                        <button className='btn-home'><a target="_blank" rel="noopener noreferrer" href='https://bstadium.es/'>Invierte ahora</a></button>
                         {/* <p className='header-subtitle'>Capital en riesgo</p> */}
                     </div>
                     <div className='last-text'>

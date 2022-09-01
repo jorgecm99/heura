@@ -78,19 +78,26 @@ const LandingTwo = () => {
 
       {/********MOBILE******* */}
 
-      <div className='landing-two-div-three'>
+      <div className='landing-two-div-one'>
         <h2 className='landing-two-h2-underline' data-aos="fade-up" data-aos-duration="2000">How?</h2>
         
           <div className='carrusel-flex'>
-            <div className='landing-two-div-three-container carrusel-bg' data-aos="fade-up" data-aos-duration="2000">
+            {/* <div className='landing-two-div-three-container' data-aos="fade-up" data-aos-duration="2000">
+              <img src={icono1} alt='' className='landing-two-div-three-image' style={{width:50, marginBottom:20}}></img>
+              <div className='landing-two-div-three-group'>
+                <h2 className='landing-two-div-three-title'>MIND BLOWING <br /> EXPERIENCES</h2>                
+              </div>
+              <p className='landing-two-div-three-text'>Attractive experiences of all types (matches, tours, training, events…) using  tech (AR,/VR) and physical resources (stadium, players..)</p>
+            </div> */}
+
+            <div className='landing-two-div-three-container' data-aos="fade-up" data-aos-duration="2000">
               <img src={icono1} alt='' className='landing-two-div-three-image' style={{width:50, marginBottom:20}}></img>
               <div className='landing-two-div-three-group'>
                 <h2 className='landing-two-div-three-title'>MIND BLOWING <br /> EXPERIENCES</h2>
                 
               </div>
-              <p className='landing-two-div-three-text'>Attractive experiences of all types (matches, tours, training, events…) using  tech (AR,/VR) and physical resources (stadium, players..)</p>            
+              <p className='landing-two-div-three-text'>Attractive experiences of all types<br></br> (matches, tours, training, events…) using  tech (AR,/VR) and physical resources (stadium, players..)</p>
             </div>
-
 
             <div className='landing-two-div-three-container' data-aos="fade-up" data-aos-duration="2000">
               <img src={icono2} alt='' className='landing-two-div-three-image' style={{width:50, marginBottom:20}}></img>

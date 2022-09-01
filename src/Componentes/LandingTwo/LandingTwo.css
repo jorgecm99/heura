@@ -9,7 +9,7 @@
     .landing-two-mainbg {
         background-color: #121212;
         transition: 1s;
-        padding-bottom: 20px;
+        padding-bottom: 80px;
     }
     .landing-two-secondbg {
         background-color: #121212;
@@ -260,10 +260,6 @@
         align-items: center;
     }
 
-    .carrusel-bg{
-        display: none;
-    }
-
     /*.carousel {
         display: none;
     }*/
@@ -411,11 +407,10 @@
 
     .carrusel-flex{
         display: flex;
+        color: white;
+        padding: 20px 0 100px;
     }
 
-    .landing-two-div-three, .landing-two-div-three-container, .landing-two-div-three-group
-    .landing-two-div-three-image, .landing-two-div-three-text, .landing-two-div-three-title {
-        display: none;
-    }
+    
     
 }
