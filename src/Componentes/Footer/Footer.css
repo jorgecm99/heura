@@ -1,5 +1,76 @@
-.footer{
-    background: #121212;
-    color: white;
-    line-height: 1px;
+/****MOBILE****/
+@media only screen and (max-width: 859px) {
+    
+    .footer{
+        background: #121212;
+        color: white;    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 70px;
+        font-weight: 700;
+    }
+
+    .footer-text{
+        font-size: 30px;
+        background: #121212;
+        color: white;
+        margin-bottom: 0;
+    }
+
+    .footer-btn{
+        background-color: #03FF95;
+        font-family: 'Poppins-Light';
+        font-weight: bold;
+        padding: 0 16px;
+        height: 36px;
+        border-radius: 5px;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        border: none;
+        margin-left: 0 !important;
+    }
+
+}
+
+/***DESKTOP*****/
+@media only screen and (min-width: 860px) {
+    .footer{
+        background: #121212;
+        color: white;    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 100px;
+        font-weight: 700;
+    }
+
+    .footer-text{
+        font-size: 40px;
+    }
+    
+    
+    .footer-btn{
+        background-color: #03FF95;
+        font-family: 'Poppins-Light';
+        font-weight: bold;
+        padding: 0 16px;
+        height: 36px;
+        border-radius: 5px;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        border: none;
+        margin-left: 16px;
+    }
+    
+    .footer-btn a{   
+        font-size: 30px !important;
+       
+    }
+    
+    .btn-landing{
+        font-size: 16px;
+    }
 }

@@ -53,7 +53,7 @@ const LandingOne = () => {
                                     <li>FAQS</li>
                                 </div>
 
-                      <button className='btn-landing'><a target="_blank" rel="noopener noreferrer" href='https://www.crowdcube.com/companies/heura-foods-for-tomorrow/pitches/lEm9rl'>Invierte ahora</a></button>
+                      <button className='btn-landing'><a target="_blank" rel="noopener noreferrer" href='https://bstadium.es/quienes-somos/'>Invierte ahora</a></button>
                     </div>
                     
                 </nav>

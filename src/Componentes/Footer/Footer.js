@@ -7,9 +7,13 @@ const Footer = () => {
   return (
 
     <div className='landing-two-div-four-container footer'>
-        <h2 className='landing-two-div-four-title landing-two-h2-new-underline footer-text'>Want to</h2>
-        <h2 className='landing-two-div-four-title landing-two-h2-new-underline footer-text'>know more?</h2>
+        <div className='landing-two-div-four-title landing-two-h2-new-underline footer-text'>Want to <br></br> know more?</div>        
+        <button className='btn-landing'><a target="_blank" rel="noopener noreferrer" href='https://bstadium.es/quienes-somos/'>Contact us</a></button>
     </div>
+
+    
+
+    
   )
 }
 
