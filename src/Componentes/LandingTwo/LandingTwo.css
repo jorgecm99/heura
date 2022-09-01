@@ -186,6 +186,10 @@
     .landing-two-div-three-image-desktop, .landing-two-div-three-text-desktop, .landing-two-div-three-title-desktop {
         display: none;
     }
+
+    .flickity-prev-next-button, .flickity-page-dots  {
+        display: none;
+    }
     
 }
 
@@ -393,7 +397,7 @@
         width: 400px;        
         padding-top: 100px;
         padding-bottom: 100px;
-        margin-left: 100px;
+        
     }
     .carousel .slide img {
         width: 20%;

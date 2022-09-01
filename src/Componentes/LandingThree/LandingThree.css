@@ -106,7 +106,7 @@
         position: relative;
         padding-top: 160px;
         padding-bottom: 100px;
-        display: flex;
+        display: block;
         justify-content: center;
     }
     .landing-three-title {
@@ -131,11 +131,7 @@
         text-decoration: underline white 4px solid;
     }
     .landing-three-card-three {
-        display: none;
-    }
-    .landing-three-card-one {
-        left: 0px;
-        top: 0px;
+        left: 500px;
         padding-bottom: 40px;
         width: 70%;
         max-width: 300px;
@@ -145,15 +141,26 @@
         margin-left: auto;
         margin-right: auto;
     }
-    .landing-three-card-two {
-        /*position: absolute;*/
+    .landing-three-card-one {
         left: 0px;
-        top: 270px;
+        padding-bottom: 40px;
+        width: 70%;
+        max-width: 300px;
         border-radius: 8px;
         padding: 60px 36px;
         background-color: #121212;
         margin-left: auto;
         margin-right: auto;
+
+        
+    }
+    .landing-three-card-two {
+        
+        border-radius: 8px;
+        padding: 60px 36px;
+        background-color: #121212;
+        margin-left: auto;
+        margin-right: 30%;
         max-width: 300px;
         width: calc(50% - 16px);
         margin-bottom: 32px;
@@ -164,6 +171,7 @@
         font-size: 14px;
         margin-top: 0px;
         margin-bottom: 24px;
+        margin-right: 100px;
     }
     .landing-three-card-one-title, .landing-three-card-two-title {
         color: white;

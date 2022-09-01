@@ -144,7 +144,7 @@ const LandingTwo = () => {
       
 
       <Flickity>  
-          <div className='carousel' data-flickity='{"autoPlay":true}'>
+          <div className='carousel' data-flickity='{"autoPlay":2000}'>
             <div className='carousel-group'>
               <img src={emprendedores} alt='' className='carousel-img'></img>
               <p>"The Spanish company that brings sports closer to fans during the pandemic"</p>
@@ -157,6 +157,10 @@ const LandingTwo = () => {
               <img src={economiesta} alt='' className='carousel-img'></img>
               <p>""Bstadium the innovative market place of sports leisure""</p>
             </div>
+            <div className='carousel-group'>
+              <img src={economiesta} alt='' className='carousel-img'></img>
+              <p>""Bstadium the innovative market place of sports leisure""</p>
+            </div>          
           </div>
 
         </Flickity>
