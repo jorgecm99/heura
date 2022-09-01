@@ -6,14 +6,14 @@ import { faAngleUp} from '@fortawesome/free-solid-svg-icons';
 import image from '../../Assets/Images/image1.png';
 import Typical from 'react-typical';
 import vertical from './../../Assets/Videos/VERTICAL.mp4'
-import Modal from './Modal';
+//import Modal from './Modal';
 import HorizontalScroll from 'react-scroll-horizontal';
 
 
 
 export default function Header () {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-    const [isModal, setIsModal] = useState(true)
+    //const [isModal, setIsModal] = useState(true)
     //const [show, setShow] = useState(false);
 
     const scrollTo = (nodeSelector) => {
@@ -98,9 +98,9 @@ export default function Header () {
 
 
                 
-                <button className='header-video-btn' onClick={() => setIsModal(true)}>Compartir</button>
+                <button className='header-video-btn'>Compartir</button>
 
-                <Modal open={isModal} onClose={() => setIsModal(false)}>
+                {/*<Modal open={isModal} onClose={() => setIsModal(false)}>
                 
                 <div className='modal-container'>
                     <h1 className='modal-title'>share</h1>
@@ -119,7 +119,7 @@ export default function Header () {
                         </div>
 
                         <p className='modal-copied'>Copied link</p>
-                </Modal>
+                </Modal>*/}
                 
                 
                 

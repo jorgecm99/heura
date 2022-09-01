@@ -1,7 +1,7 @@
-import React from 'react';
+/*import React from 'react';
 import './Modal.css'
 /*import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faXmark} from '@fortawesome/free-solid-svg-icons';*/
+import { faXmark} from '@fortawesome/free-solid-svg-icons';
 
 export default function Modal ({open, children, onClose}) {
     if(!open) return null
@@ -12,4 +12,4 @@ export default function Modal ({open, children, onClose}) {
         
     </div>
   )
-}
+}*/
