@@ -1,4 +1,4 @@
-/*********MOBILE*************/
+/****MOBILE****/
 @media only screen and (max-width: 859px) {
     .landing-two {
         width: 100%;
@@ -68,6 +68,7 @@
         margin-bottom: 4px;
         Line-height: 40px;
         font-weight: 900;
+        
     }
     .landing-two-div-three-image {
         margin-top: 24px;
@@ -153,17 +154,46 @@
         flex-direction: column;
     }
 
+    .carousel{
+        background: white;
+    }
+
     .carousel .slide img {
+        width: 50px;
+        
+    }
+
+    .carousel-img {
+        width: 180px !important;
+        padding: 0 20px;
+    }
+
+    .seccion-carrusel-desktop{
+        display: none;
+    }
+
+    .carousel-group {
+        padding: 30px 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .flickity-prev-next-button {
         width: 50px;       
     }
     .landing-two-div-three-desktop, .landing-two-div-three-container-desktop, .landing-two-div-three-group-desktop
     .landing-two-div-three-image-desktop, .landing-two-div-three-text-desktop, .landing-two-div-three-title-desktop {
         display: none;
     }
+
+    .flickity-prev-next-button, .flickity-page-dots  {
+        display: none;
+    }
     
 }
 
-/***********DESKTOP****************/
+/****DESKTOP*****/
 @media only screen and (min-width: 859px) {
     .landing-two {
         width: 100%;
@@ -229,6 +259,15 @@
         justify-content: center;
         align-items: center;
     }
+
+    .carrusel-bg{
+        display: none;
+    }
+
+    /*.carousel {
+        display: none;
+    }*/
+
     .landing-two-div-three-desktop {
         padding-top: 80px;
         width: 90%;
@@ -248,6 +287,7 @@
         margin-bottom: 4px;
         Line-height: 40px;
         font-weight: 900;
+        font-size: 25px;
     }
     .landing-two-div-three-image-desktop {
         margin-top: 24px;
@@ -340,27 +380,24 @@
         text-decoration: underline white 2px solid;
     }
     .carousel {
-        position: relative;
-        background-image: url(../../Assets/Images/recuadro.png);
+        display: block;
+        background: white;
         background-size: cover;
         background-repeat: no-repeat;
+        color: #121212;
     }
     .carousel p {
         font-size: 16px;
         line-height: 28px;
     }
     .carousel-img {
-        width: 100px;
+        width: 200px !important;
     }
-    .carousel-group {
-        align-items: center;
-        width: 25vw;
-        text-align: left;
-        display: block;
-        justify-content: flex-start;
+    .carousel-group {        
+        width: 400px;        
         padding-top: 100px;
-        padding-bottom: 70px;
-        margin-left: 75px;
+        padding-bottom: 100px;
+        
     }
     .carousel .slide img {
         width: 20%;
@@ -370,6 +407,12 @@
     .flickity-prev-next-button, .flickity-page-dots  {
         display: none;
     }
+
+
+    .carrusel-flex{
+        display: flex;
+    }
+
     .landing-two-div-three, .landing-two-div-three-container, .landing-two-div-three-group
     .landing-two-div-three-image, .landing-two-div-three-text, .landing-two-div-three-title {
         display: none;

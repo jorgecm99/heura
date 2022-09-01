@@ -26,13 +26,6 @@ export default function Header () {
         <header>
             <div className='header'>
 
-                <HorizontalScroll 
-                 style={{width: '80vw'}}
-                 reverseScroll={true}
-                 pageLock={false}>
-
-                <div className='header-horizontal-scroll'>
-
                 <nav className='header-style'>
                     <img src={image} alt=''></img>
                     <div className='dropdown'>
@@ -92,13 +85,21 @@ export default function Header () {
                         </p>
                     </div>        
                 </div>
-                </div>
+                
+
+
+                <HorizontalScroll 
+                 style={{width: '80vw'}}
+                 reverseScroll={true}
+                 pageLock={false}>
+
+                <div className='header-horizontal-scroll'></div>
 
                 </HorizontalScroll>
 
 
                 
-                <button className='header-video-btn'>Compartir</button>
+                
 
                 {/*<Modal open={isModal} onClose={() => setIsModal(false)}>
                 
@@ -132,7 +133,10 @@ export default function Header () {
                     <source src={vertical} type="video/mp4"></source>
                     Tu navegador no soporta los vídeos de HTML5
                 </video>
+                
             </div>
+            {/*<button className='header-video-btn'>Compartir</button>*/}
+            
             
         </header>
     )
