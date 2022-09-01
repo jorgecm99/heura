@@ -40,10 +40,8 @@ export default function Header () {
                             isMenuOpen ? 
                                 <div className='dropdown-content'>
                                     <li onClick={() => scrollTo('.landing-one-text')}>Misión</li>
-                                    <li onClick={() => scrollTo('.landing-two-div-one')}>Game changers</li>
-                                    <li onClick={() => scrollTo('.landing-three-title')}>Últimos 12 meses</li>
-                                    <li>Productos</li>
-                                    <li>Press</li>
+                                    <li onClick={() => scrollTo('.landing-two-div-one')}>Nuestros Valores</li>
+                                    <li onClick={() => scrollTo('.landing-three-title')}>Últimos 12 meses</li>                                    
                                     <li>FAQS</li>
                     </div> : null
                 }
@@ -53,10 +51,8 @@ export default function Header () {
 
                     <div className='dropdown-content-desktop'>
                         <li onClick={() => scrollTo('.landing-one-text')}>Misión</li>
-                        <li onClick={() => scrollTo('.landing-two-div-one')}>Game changers</li>
-                        <li onClick={() => scrollTo('.landing-three-title')}>Últimos 12 meses</li>
-                        <li>Productos</li>
-                        <li>Press</li>
+                        <li onClick={() => scrollTo('.landing-two-div-one')}>Nuestros Valores</li>
+                        <li onClick={() => scrollTo('.landing-three-title')}>Últimos 12 meses</li>                        
                         <li>FAQS</li>
                     </div>
 
@@ -64,31 +60,27 @@ export default function Header () {
 
                 <div className='header-text'>
                     <div>
-                        <h3 className='header-title'>good rebels por un sistema alimentario{' '}
+                        <h3 className='header-title'>FOOTBALL FANS TO {' '}
                         <Typical
                             loop={Infinity}
                             wrapper="span"
                             steps={[
-                                'sostenible', 1000, 
-                                'justo', 1000,
-                                'delicioso', 1000,
-                                'saludable', 1000
+                                'discover', 1000, 
+                                'enjoy', 1000,
+                                'create', 1000
+                                
                             ]}
-                            />
+                            /> NEW EXPERIENCES
                             </h3>
                         <button className='btn-home'><a target="_blank" rel="noopener noreferrer" href='https://www.crowdcube.com/companies/heura-foods-for-tomorrow/pitches/lEm9rl'>Invierte ahora</a></button>
-                        <p className='header-subtitle'>Capital en riesgo</p>
+                        {/* <p className='header-subtitle'>Capital en riesgo</p> */}
                     </div>
                     <div className='last-text'>
                         <p>
-                            ¿Quieres unirte a una revolución y hacer un cambio positivo? Conviértete en 
-                            accionista de una de las marcas más queridas y revolucionarias de Europa 
-                            invirtiendo en LA campaña para aquellas personas que quieren actuar por un 
-                            futuro mejor para el planeta, las personas y los animales.
+                        Want to join a revolution and feel more your passion for football? Become a shareholder of a game-changing sport marketplace in Europe by investing in THE campaign for those who want to benefit for creating new experiences to enjoy your favourite sport.
                         </p>
                         <p>
-                            Hace un año abrimos el <span className='span-style'>1er Equity for Good Rebels </span>y en un momento alucinante 
-                            superamos nuestro objetivo inicial!
+                        We are accelerated by Google for Startups creating unique experiences using tech and sport assets to live your sport passion everywhere and everyday! {/* <span className='span-style'>1er Equity for Good Rebels </span> */}
                         </p>
                     </div>
                     
