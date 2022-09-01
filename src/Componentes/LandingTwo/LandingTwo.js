@@ -47,7 +47,7 @@ const LandingTwo = () => {
   return (
     <div className='landing-two'>
       <div className={ color ? 'landing-two-mainbg' : 'landing-two-seconbg'}>
-      <div className='landing-two-div-one'>
+      <div className='landing-two-div-one' data-aos="fade-up" data-aos-duration="2000">
         <h2 className='landing-two-h2-underline'>WHAT?</h2>
         <div className='landing-two-block'>
           <p className='landing-two-p'>We’re a Madrid-based mission-driven start-up developing and selling football experiences for 17 clubs and growing!. Bstadium provides fans the possibility of living exclusive physical and virtual experiences via the marketplace bstadium.es.</p>
@@ -79,10 +79,10 @@ const LandingTwo = () => {
       {/********MOBILE******* */}
 
       <div className='landing-two-div-three'>
-        <h2 className='landing-two-h2-underline'>How?</h2>
+        <h2 className='landing-two-h2-underline' data-aos="fade-up" data-aos-duration="2000">How?</h2>
         
           <div className='carrusel-flex'>
-            <div className='landing-two-div-three-container carrusel-bg'>
+            <div className='landing-two-div-three-container carrusel-bg' data-aos="fade-up" data-aos-duration="2000">
               <img src={icono1} alt='' className='landing-two-div-three-image' style={{width:50, marginBottom:20}}></img>
               <div className='landing-two-div-three-group'>
                 <h2 className='landing-two-div-three-title'>MIND BLOWING <br /> EXPERIENCES</h2>
@@ -92,7 +92,7 @@ const LandingTwo = () => {
             </div>
 
 
-            <div className='landing-two-div-three-container'>
+            <div className='landing-two-div-three-container' data-aos="fade-up" data-aos-duration="2000">
               <img src={icono2} alt='' className='landing-two-div-three-image' style={{width:50, marginBottom:20}}></img>
               <div className='landing-two-div-three-group'>
                 <h2 className='landing-two-div-three-title'>EVERY DAY EXCLUSIVE <br />EXPERIENCES</h2>
@@ -101,7 +101,7 @@ const LandingTwo = () => {
               <p className='landing-two-div-three-text'>Creating exclusive sales of our experience with partner clubs in match and non match days</p>
             </div>
 
-            <div className='landing-two-div-three-container'>
+            <div className='landing-two-div-three-container' data-aos="fade-up" data-aos-duration="2000">
               <img src={icono3} alt='' className='landing-two-div-three-image' style={{width:50, marginBottom:20}}></img>
               <div className='landing-two-div-three-group'>
                 <h2 className='landing-two-div-three-title'>REACHING THE FOOTBALL<br />  COMMUNITY</h2>
@@ -116,8 +116,8 @@ const LandingTwo = () => {
 
 
       <div className='landing-two-div-four-container'>
-        <h2 className='landing-two-div-four-title landing-two-h2-new-underline'> <span className='four-span'>WINNERS!</span> </h2>
-        <div className='landing-two-div-four-divs'>
+        <h2 className='landing-two-div-four-title landing-two-h2-new-underline' data-aos="fade-up" data-aos-duration="2000"> <span className='four-span'>WINNERS!</span> </h2>
+        <div className='landing-two-div-four-divs' data-aos="fade-up" data-aos-duration="2000">
           <div className='landing-two-div-four-divs-p'>            
             <p><b>First prize of competition 2021!</b> <br /> Thanks for the trust of our clients and club partners we showcase in this competition our new experiences and how fans are enjoying them!</p>
             <img src={google} alt='' className='landing-two-div-four-image'></img>
@@ -127,7 +127,7 @@ const LandingTwo = () => {
             <p><span className='last-span'>3,98M€</span> de 2778 Good Rebels</p>
           </div> */}
         </div>
-        <div className='landing-two-div-four-divs'>
+        <div className='landing-two-div-four-divs' data-aos="fade-up" data-aos-duration="2000">
           <div className='landing-two-div-four-divs-p'>            
           <img src={lanzadera} alt='' className='landing-two-div-four-image'></img>
             <p>Bstadium has joined the growth accelerator program of Lanzadera, the biggest startups hub in Spain.</p>
