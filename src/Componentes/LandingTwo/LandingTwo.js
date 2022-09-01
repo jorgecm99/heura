@@ -70,6 +70,9 @@ const LandingTwo = () => {
         </div>
       </div> */}
 
+
+      {/*************************MOBILE******************** */}
+
       <div className='landing-two-div-three'>
         <h2 className='landing-two-h2-underline'>How?</h2>
         {/* <p><strong>Nuestra contribución a un mundo mejor:</strong></p> */}
@@ -100,13 +103,53 @@ const LandingTwo = () => {
               
             </div>
             <p className='landing-two-div-three-text'>Having direct too loyal fans who are willing to buy products with the support of clubs. <br />Internationalisation expansion. <br />Expanding our offering worldwide and adding new clubs to our marketplace</p>            
-          </div>
-
-
-              
+          </div>          
         </Carousel>
       </div>
-      </div>
+
+
+      {/*************************DESKTOP******************** */}
+
+      <div className='landing-two-div-three-desktop' >
+          <h2 className='landing-two-h2-underline'>How?</h2>
+      
+        
+        <Flickity>
+
+        <div className='landing-two-div-three-slider' data-flickity='{ "freeScroll": true }'>
+          <div className='landing-two-div-three-container-desktop'>
+            <img src={icono} alt='' className='landing-two-div-three-image-desktop' style={{width:50, marginBottom:20}}></img>
+            <div className='landing-two-div-three-group-desktop'>
+              <h2 className='landing-two-div-three-title-desktop'>MIND BLOWING <br /> EXPERIENCES</h2>     
+            </div>
+            <p className='landing-two-div-three-text-desktop'>Attractive experiences of all types (matches, tours, training, events…) using  tech (AR,/VR) and physical resources (stadium, players..)</p>            
+          </div>
+
+          <div className='landing-two-div-three-container-desktop'>
+            <img src={icono} alt='' className='landing-two-div-three-image-desktop' style={{width:50, marginBottom:20}}></img>
+            <div className='landing-two-div-three-group-desktop'>
+              <h2 className='landing-two-div-three-title-desktop'>EVERY DAY EXCLUSIVE <br />EXPERIENCES</h2>
+              
+            </div>
+            <p className='landing-two-div-three-text-desktop'>Creating exclusive sales of our experience with partner clubs in match and non match days</p>
+          </div>
+
+          <div className='landing-two-div-three-container-desktop'>
+            <img src={icono} alt='' className='landing-two-div-three-image-desktop' style={{width:50, marginBottom:20}}></img>
+            <div className='landing-two-div-three-group-desktop'>
+              <h2 className='landing-two-div-three-title-desktop'>REACHING THE FOOTBALL<br />  COMMUNITY</h2>
+              
+            </div>
+            <p className='landing-two-div-three-text-desktop'>Having direct too loyal fans who are willing to buy products with the support of clubs. <br />Internationalisation expansion. <br />Expanding our offering worldwide and adding new clubs to our marketplace</p>            
+          </div>
+          </div>  
+          </Flickity>  
+          </div>  
+        
+      
+    </div>
+
+
 
       <div className='landing-two-div-four-container'>
         <h2 className='landing-two-div-four-title landing-two-h2-new-underline'> <span className='four-span'>WINNERS!</span> </h2>
@@ -136,36 +179,25 @@ const LandingTwo = () => {
       
       
       
-      
-        
-      {/*<Carousel 
-      showStatus={false} 
-      showThumbs={false} 
-      showIndicators={false} 
-      showArrows={false} 
-      autoPlay 
-      interval="3000" 
-      infiniteLoop 
-        transitionTime="3000" >*/}
 
       <Flickity>  
         <div className='carousel' data-flickity='{"autoPlay":true}'>
-        <div className='carousel-group'>
-          <img src={image} alt='' className='carousel-img'></img>
-          <p>"The Spanish company that brings sports closer to fans during the pandemic"</p>
-        </div>
-        <div className='carousel-group'>
-          <img src={image} alt='' className='carousel-img'></img>
-          <p>"To deseasonalize and democratize the consumption of sports through the experiences offered in its marketplace"</p>
-        </div>
-        <div className='carousel-group'>
-          <img src={image} alt='' className='carousel-img'></img>
-          <p>""Bstadium the innovative market place of sports leisure""</p>
-        </div>
-        <div className='carousel-group'>
-          <img src={image} alt='' className='carousel-img'></img>
-          <p>"La campaña de crowdfunding de Heura capta 4 millones de más de 3.000 inversores en un día."</p>
-        </div>
+          <div className='carousel-group'>
+            <img src={image} alt='' className='carousel-img'></img>
+            <p>"The Spanish company that brings sports closer to fans during the pandemic"</p>
+          </div>
+          <div className='carousel-group'>
+            <img src={image} alt='' className='carousel-img'></img>
+            <p>"To deseasonalize and democratize the consumption of sports through the experiences offered in its marketplace"</p>
+          </div>
+          <div className='carousel-group'>
+            <img src={image} alt='' className='carousel-img'></img>
+            <p>""Bstadium the innovative market place of sports leisure""</p>
+          </div>
+          <div className='carousel-group'>
+            <img src={image} alt='' className='carousel-img'></img>
+            <p>"La campaña de crowdfunding de Heura capta 4 millones de más de 3.000 inversores en un día."</p>
+          </div>
         </div>
         </Flickity>
         
