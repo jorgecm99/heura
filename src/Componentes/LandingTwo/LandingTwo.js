@@ -10,11 +10,7 @@ import icono2 from '../../Assets/Images/icono2.svg';
 import icono3 from '../../Assets/Images/icono3.svg';
 import elpais from '../../Assets/Images/el-pais.svg';
 import emprendedores from '../../Assets/Images/emprendedores-logo.png';
-
-
 import economiesta from '../../Assets/Images/economiesta.svg';
-
-
 import google from '../../Assets/Images/google.png';
 import lanzadera from '../../Assets/Images/lanzadera.png';
 import Flickity from 'react-flickity-component';
@@ -79,38 +75,12 @@ const LandingTwo = () => {
         </div>
       </div> */}
 
+
+      {/*************************MOBILE******************** */}
+
       <div className='landing-two-div-three'>
         <h2 className='landing-two-h2-underline'>How?</h2>
-        {/* <p><strong>Nuestra contribución a un mundo mejor:</strong></p> */}
         
-         {/*  <Carousel showStatus={false} showThumbs={false} showIndicators={false} showArrows={false} className="carrusel-bg">
-            <div className='landing-two-div-three-container carrusel-bg'>
-              <img src={icono} alt='' className='landing-two-div-three-image' style={{width:50, marginBottom:20}}></img>
-              <div className='landing-two-div-three-group'>
-                <h2 className='landing-two-div-three-title'>MIND BLOWING <br /> EXPERIENCES</h2>
-                
-              </div>
-              <p className='landing-two-div-three-text'>Attractive experiences of all types (matches, tours, training, events…) using  tech (AR,/VR) and physical resources (stadium, players..)</p>            
-            </div>
-
-            <div className='landing-two-div-three-container'>
-              <img src={icono} alt='' className='landing-two-div-three-image' style={{width:50, marginBottom:20}}></img>
-              <div className='landing-two-div-three-group'>
-                <h2 className='landing-two-div-three-title'>EVERY DAY EXCLUSIVE <br />EXPERIENCES</h2>
-                
-              </div>
-              <p className='landing-two-div-three-text'>Creating exclusive sales of our experience with partner clubs in match and non match days</p>
-            </div>
-
-            <div className='landing-two-div-three-container'>
-              <img src={icono} alt='' className='landing-two-div-three-image' style={{width:50, marginBottom:20}}></img>
-              <div className='landing-two-div-three-group'>
-                <h2 className='landing-two-div-three-title'>REACHING THE FOOTBALL<br />  COMMUNITY</h2>
-                
-              </div>
-              <p className='landing-two-div-three-text'>Having direct too loyal fans who are willing to buy products with the support of clubs. <br />Internationalisation expansion. <br />Expanding our offering worldwide and adding new clubs to our marketplace</p>            
-            </div>              
-          </Carousel> */}
           <div className='carrusel-flex'>
             <div className='landing-two-div-three-container carrusel-bg'>
               <img src={icono1} alt='' className='landing-two-div-three-image' style={{width:50, marginBottom:20}}></img>
@@ -120,6 +90,7 @@ const LandingTwo = () => {
               </div>
               <p className='landing-two-div-three-text'>Attractive experiences of all types (matches, tours, training, events…) using  tech (AR,/VR) and physical resources (stadium, players..)</p>            
             </div>
+
 
             <div className='landing-two-div-three-container'>
               <img src={icono2} alt='' className='landing-two-div-three-image' style={{width:50, marginBottom:20}}></img>
@@ -141,6 +112,8 @@ const LandingTwo = () => {
           </div>
         </div>
       </div>
+
+
 
       <div className='landing-two-div-four-container'>
         <h2 className='landing-two-div-four-title landing-two-h2-new-underline'> <span className='four-span'>WINNERS!</span> </h2>
@@ -167,45 +140,28 @@ const LandingTwo = () => {
         </div>  
       </div>
       
+    
       
-      
-      
-      
-        
-      {/*<Carousel 
-      showStatus={false} 
-      showThumbs={false} 
-      showIndicators={false} 
-      showArrows={false} 
-      autoPlay 
-      interval="3000" 
-      infiniteLoop 
-        transitionTime="3000" >*/}
 
       <Flickity>  
-        <div className='carousel' data-flickity='{"autoPlay":true}'>
-        <div className='carousel-group'>
-          <img src={emprendedores} alt='' className='carousel-img'></img>
-          <p>"The Spanish company that brings sports closer to fans during the pandemic"</p>
-        </div>
-        <div className='carousel-group'>
-          <img src={elpais} alt='' className='carousel-img'></img>
-          <p>"To deseasonalize and democratize the consumption of sports through the experiences offered in its marketplace"</p>
-        </div>
-        <div className='carousel-group'>
-          <img src={economiesta} alt='' className='carousel-img'></img>
-          <p>""Bstadium the innovative market place of sports leisure""</p>
-        </div>
-      
-        </div>
+          <div className='carousel' data-flickity='{"autoPlay":true}'>
+            <div className='carousel-group'>
+              <img src={emprendedores} alt='' className='carousel-img'></img>
+              <p>"The Spanish company that brings sports closer to fans during the pandemic"</p>
+            </div>
+            <div className='carousel-group'>
+              <img src={elpais} alt='' className='carousel-img'></img>
+              <p>"To deseasonalize and democratize the consumption of sports through the experiences offered in its marketplace"</p>
+            </div>
+            <div className='carousel-group'>
+              <img src={economiesta} alt='' className='carousel-img'></img>
+              <p>""Bstadium the innovative market place of sports leisure""</p>
+            </div>
+          </div>
+
         </Flickity>
         
-      
-      
 
-      
-
-      
     </div>
   )
 }

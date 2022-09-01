@@ -180,6 +180,10 @@
     }
 
     .flickity-prev-next-button {
+        width: 50px;       
+    }
+    .landing-two-div-three-desktop, .landing-two-div-three-container-desktop, .landing-two-div-three-group-desktop
+    .landing-two-div-three-image-desktop, .landing-two-div-three-text-desktop, .landing-two-div-three-title-desktop {
         display: none;
     }
     
@@ -259,16 +263,20 @@
     /*.carousel {
         display: none;
     }*/
-    .landing-two-div-three {
+
+    .landing-two-div-three-desktop {
         padding-top: 80px;
         width: 90%;
         margin-left: auto;
         margin-right: auto;
     }
-    .landing-two-div-three-group {
+    .landing-two-div-three-slider {
+        display: flex;
+    }
+    .landing-two-div-three-group-desktop {
         margin-bottom: 24px;
     }
-    .landing-two-div-three-title {
+    .landing-two-div-three-title-desktop {
         text-transform: uppercase;        
         color: white;
         margin-top: 4px;
@@ -277,11 +285,11 @@
         font-weight: 900;
         font-size: 25px;
     }
-    .landing-two-div-three-image {
+    .landing-two-div-three-image-desktop {
         margin-top: 24px;
     }
-    .landing-two-div-three-container {
-        width: 50%;
+    .landing-two-div-three-container-desktop {
+        width: 45vw;
         margin-right: 40px;
         display: flex;
         flex-direction: column;
@@ -289,8 +297,7 @@
         padding-bottom: 200px;
     }
 
-
-    .landing-two-div-three-text {
+    .landing-two-div-three-text-desktop {
         font-family: 'Poppins-Regular';
         font-size: 14px;
         line-height: 24px;
@@ -401,4 +408,10 @@
     .carrusel-flex{
         display: flex;
     }
+
+    .landing-two-div-three, .landing-two-div-three-container, .landing-two-div-three-group
+    .landing-two-div-three-image, .landing-two-div-three-text, .landing-two-div-three-title {
+        display: none;
+    }
+    
 }
