@@ -15,6 +15,7 @@
         text-align: center;
         margin-bottom: 40px;
         padding: 40px 20px;
+        margin-top: -100px;
     }
     .landing-three-title-text {
         text-transform: uppercase;
@@ -107,7 +108,7 @@
         background: #03FF95;
         width: 100%;
         position: relative;
-        padding-top: 160px;
+        padding-top: 100px;
         padding-bottom: 100px;
         display: block;
         justify-content: center;
@@ -124,7 +125,7 @@
     }
     .landing-three-title-text {
         text-transform: uppercase;
-        font-size: 40px;
+        font-size: 55px;
         color: white;
         margin-top: 8px;
         margin-bottom: 0px;
@@ -141,7 +142,7 @@
         border-radius: 8px;
         padding: 40px 20px;
         background-color: #121212;
-        margin-left: auto;
+        margin-left: 50%;
         margin-right: auto;
         text-align: center;
     }
@@ -174,7 +175,7 @@
     .landing-three-card-one, .landing-three-card-two p {
         font-family: 'Poppins-Regular';
         font-size: 14px;
-        margin-top: 0px;
+        margin-top: 20px;
         margin-bottom: 24px;
         margin-right: 100px;
     }

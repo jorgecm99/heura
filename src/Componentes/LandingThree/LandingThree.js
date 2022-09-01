@@ -36,10 +36,9 @@ const LandingThree = () => {
       </div>
 
       <div className='landing-three-card-one' data-aos="fade-up" data-aos-duration="2000">
-        <h1 className='landing-three-card-one-title'>Business</h1>
-        <h1 className='landing-three-card-two-black'>Highlights</h1>      
-        <p style={{color:"white", lineHeight:2.2}}><strong className='strong-underline'>Tripled revenue</strong> in 2022 reaching +500k€ Q1 & Q2 '22 <strong className='strong-underline'>grew by 125%</strong> in comparison with the previous period.</p>
-        <p style={{color:"white", lineHeight:2.2}}><strong className='strong-underline'> More than</strong> <strong className='strong-underline'>3,000 football experiences sold</strong> 17 clubs in 1 market (Spain)</p>        
+        <h1 className='landing-three-card-one-title'>Products</h1>             
+        <p style={{color:"white", lineHeight:2.2}}>We have launched our spectaculars experiences.</p>
+        
       </div>       
       
 
