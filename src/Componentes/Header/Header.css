@@ -142,6 +142,9 @@
         z-index: 2;
         
     }
+    .header-horizontal-scroll {
+        display: none;
+    }
 
     /*************MODAL*********************/
     .modal-container {
@@ -216,7 +219,6 @@
 /****************************DESKTOP***********************************************/
 @media only screen and (min-width: 860px) {
     .header {
-        background: #121212;
         position: relative;
         top: 0;
         left: 0;
@@ -235,7 +237,6 @@
         padding-top: 24px;
     }
     .video-mobile {
-        display: none;
         position: fixed;
         top: 0;
         bottom: 0;
@@ -256,7 +257,7 @@
         align-items: center;
         cursor: pointer;
         position: absolute;
-        left: 80%;
+        left: 75%;
         width: 100%;
         transform: translate3d(-50%,0,0);
         
@@ -347,4 +348,9 @@
         font-weight: bold;
         color: #03FF95;
     }
+    .header-horizontal-scroll {
+        background-color: #121212;
+        width: 80vw;
+    }
+    
 }

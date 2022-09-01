@@ -7,6 +7,7 @@ import image from '../../Assets/Images/image1.png';
 import Typical from 'react-typical';
 import vertical from './../../Assets/Videos/VERTICAL.mp4'
 import Modal from './Modal';
+import HorizontalScroll from 'react-scroll-horizontal';
 
 
 
@@ -24,6 +25,13 @@ export default function Header () {
     return(
         <header>
             <div className='header'>
+
+                <HorizontalScroll 
+                 style={{width: '80vw'}}
+                 reverseScroll={true}
+                 pageLock={false}>
+
+                <div className='header-horizontal-scroll'>
 
                 <nav className='header-style'>
                     <img src={image} alt=''></img>
@@ -82,23 +90,14 @@ export default function Header () {
                         <p>
                         We are accelerated by Google for Startups creating unique experiences using tech and sport assets to live your sport passion everywhere and everyday! {/* <span className='span-style'>1er Equity for Good Rebels </span> */}
                         </p>
-                    </div>
-                    
+                    </div>        
                 </div>
-                <div>
-                    
                 </div>
 
+                </HorizontalScroll>
 
-                <div className='header-div-container'>
 
-                </div>
-
-                <div  className='video-mobile'>
-                <video muted loop autoPlay>
-                    <source src={vertical} type="video/mp4"></source>
-                    Tu navegador no soporta los vídeos de HTML5
-                </video>
+                
                 <button className='header-video-btn' onClick={() => setIsModal(true)}>Compartir</button>
 
                 <Modal open={isModal} onClose={() => setIsModal(false)}>
@@ -124,8 +123,15 @@ export default function Header () {
                 
                 
                 
-                </div>
+                
 
+            </div>
+
+            <div  className='video-mobile'>
+                <video muted loop autoPlay>
+                    <source src={vertical} type="video/mp4"></source>
+                    Tu navegador no soporta los vídeos de HTML5
+                </video>
             </div>
             
         </header>

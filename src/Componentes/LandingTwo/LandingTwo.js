@@ -8,6 +8,7 @@ import gafas from '../../Assets/Images/Imagen-gafas 1.png';
 import icono from '../../Assets/Images/Vector.svg';
 import google from '../../Assets/Images/google.png';
 import lanzadera from '../../Assets/Images/lanzadera.png';
+import Flickity from 'react-flickity-component';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
@@ -135,26 +136,38 @@ const LandingTwo = () => {
       
       
       
-      <div className='landing-two-div-last'>
-      <Carousel showStatus={false} showThumbs={false} showIndicators={false} showArrows={false} autoPlay interval="3000" infiniteLoop transitionTime="3000" >
-        <div className='landing-two-div-last-group'>
-          <img src={image} alt='' className='landing-two-div-last-img'></img>
+      
+        
+      {/*<Carousel 
+      showStatus={false} 
+      showThumbs={false} 
+      showIndicators={false} 
+      showArrows={false} 
+      autoPlay 
+      interval="3000" 
+      infiniteLoop 
+        transitionTime="3000" >*/}
+
+      <Flickity>  
+        <div className='carousel' data-flickity='{"autoPlay":true}'>
+        <div className='carousel-group'>
+          <img src={image} alt='' className='carousel-img'></img>
           <p>"The Spanish company that brings sports closer to fans during the pandemic"</p>
         </div>
-        <div className='landing-two-div-last-group'>
-          <img src={image} alt='' className='landing-two-div-last-img'></img>
+        <div className='carousel-group'>
+          <img src={image} alt='' className='carousel-img'></img>
           <p>"To deseasonalize and democratize the consumption of sports through the experiences offered in its marketplace"</p>
         </div>
-        <div className='landing-two-div-last-group'>
-          <img src={image} alt='' className='landing-two-div-last-img'></img>
+        <div className='carousel-group'>
+          <img src={image} alt='' className='carousel-img'></img>
           <p>""Bstadium the innovative market place of sports leisure""</p>
         </div>
-        <div className='landing-two-div-last-group'>
-          <img src={image} alt='' className='landing-two-div-last-img'></img>
+        <div className='carousel-group'>
+          <img src={image} alt='' className='carousel-img'></img>
           <p>"La campaña de crowdfunding de Heura capta 4 millones de más de 3.000 inversores en un día."</p>
         </div>
-        </Carousel>
         </div>
+        </Flickity>
         
       
       

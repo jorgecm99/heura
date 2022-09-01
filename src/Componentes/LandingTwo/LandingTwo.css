@@ -338,30 +338,35 @@
         font-weight: bold;
         text-decoration: underline white 2px solid;
     }
-    .landing-two-div-last {
+    .carousel {
         position: relative;
         background-image: url(../../Assets/Images/recuadro.png);
         background-size: cover;
         background-repeat: no-repeat;
     }
-    .landing-two-div-last p {
+    .carousel p {
         font-size: 16px;
         line-height: 28px;
     }
-    .landing-two-div-last-img {
+    .carousel-img {
         width: 100px;
     }
-    .landing-two-div-last-group {
+    .carousel-group {
+        align-items: center;
         width: 25vw;
         text-align: left;
         display: block;
         justify-content: flex-start;
-        padding-top: 70px;
+        padding-top: 100px;
         padding-bottom: 70px;
+        margin-left: 75px;
     }
     .carousel .slide img {
         width: 20%;
         vertical-align: top;
         border: 0
+    }
+    .flickity-prev-next-button, .flickity-page-dots  {
+        display: none;
     }
 }
