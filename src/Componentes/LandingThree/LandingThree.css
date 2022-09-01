@@ -92,6 +92,9 @@
         color: rgba(34,34,34,.4);
         font-style: italic;
     }
+    .landing-three-card-group, .landing-three-container-desktop, .landing-three-card-one-maintext {
+        display: none;
+    }
 
 }
 
@@ -125,49 +128,69 @@
     .span-landing-three-title {
         color: #222;
         text-decoration: underline white 4px solid;
+        text-underline-offset: 4px;
     }
     .landing-three-card-three {
         display: none;
     }
+    .landing-three-card-group {
+        position: relative;
+        height: 3432.58px;
+        max-width: 718px;
+        width: 45%;
+        float: right;
+        display: flex;
+        flex-direction: row-reverse;
+    }
     .landing-three-card-one {
-        left: 0px;
+        position: absolute;
+        left: 236.25px;
         top: 0px;
         padding-bottom: 40px;
-        width: 70%;
-        max-width: 343px;
+        width: 30%;
+        /*max-width: 343px;*/
         border-radius: 8px;
         padding: 60px 36px;
+        text-align: center;
         background-color: #fdf7d4;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 32px;
+        /*min-height: 411px;*/
     }
     .landing-three-card-two {
-        /*position: absolute;*/
+        position: absolute;
+        width: 30%;
+        /*max-width: 343px;*/
         left: 0px;
         top: 270px;
         border-radius: 8px;
         padding: 60px 36px;
+        text-align: center;
         background-color: #fdf7d4;
         margin-left: auto;
         margin-right: auto;
-        max-width: 343px;
-        width: calc(50% - 16px);
         margin-bottom: 32px;
-        min-height: 411px;
+        /*min-height: 411px;*/
     }
-    .landing-three-card-one, .landing-three-card-two p {
+    .landing-three-card-one-para {
         font-family: 'Poppins-Regular';
-        font-size: 14px;
+        /*font-size: 16px;*/
         margin-top: 0px;
-        margin-bottom: 24px;
+        margin-bottom: 12px;
+        line-height: 28px;
     }
     .landing-three-card-one-title, .landing-three-card-two-title {
+        letter-spacing: -10px;
+        text-align: center;
         color: #f9e021;
         text-transform: uppercase;
         margin-top: 0px;
         margin-bottom: 0px;
     }
     .landing-three-card-one-black, .landing-three-card-two-black {
+        letter-spacing: -10px;
+        text-align: center;
         color: #222;
         text-transform: uppercase;
         margin-top: 0px;
@@ -176,5 +199,27 @@
     .strong-underline {
         text-decoration: underline yellow 2px solid;
         color: #222;
+        text-underline-offset: 4px;
+        font-weight: bold;
+    }
+    .landing-three-container-desktop {
+        width: 100%;
+        padding: 0 40px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        align-items: flex-start;
+        position: relative;
+    }
+    .landing-three-card-one-grey, .landing-three-card-two-grey {
+        font-family: 'Poppins-Regular';
+        font-size: 12px;
+        color: rgba(34,34,34,.4);
+        font-style: italic;
+        line-height: 20px;
+        margin-top: 20px;
+    }
+    .landing-three-card-one-maintext {
+        margin-bottom: 32px;
     }
 }

@@ -93,6 +93,7 @@
     .four-span {
         color: #222;
         text-decoration: underline white 4px solid;
+        text-underline-offset: 4px;
     }
     .landing-two-div-four-divs {
         padding-top: 40px;
@@ -105,6 +106,7 @@
     .last-span {
         font-weight: bold;
         text-decoration: underline white 2px solid;
+        text-underline-offset: 4px;
     }
     .landing-two-div-last {
         background-image: url(../../Assets/Images/recuadro.png);
@@ -242,6 +244,7 @@
     .four-span {
         color: #222;
         text-decoration: underline white 4px solid;
+        text-underline-offset: 4px;
     }
     .landing-two-div-four-divs {
         display: flex;
@@ -268,6 +271,7 @@
         color: #222;
         font-weight: bold;
         text-decoration: underline white 2px solid;
+        text-underline-offset: 4px;
     }
     .landing-two-div-last {
         position: relative;
