@@ -27,8 +27,8 @@ const LandingFour = () => {
             <div className='landing-four-dropdown-icon'>
                         {
                             isMenuOpen ?
-                                <FontAwesomeIcon icon={faX} style={{color:"white"}} onClick={()=>setIsMenuOpen(false)}/>
-                                : <FontAwesomeIcon icon={faPlus} style={{color:"white"}} onClick={()=>setIsMenuOpen(true)}/>
+                                <FontAwesomeIcon icon={faX} style={{color:"#121212"}} onClick={()=>setIsMenuOpen(false)}/>
+                                : <FontAwesomeIcon icon={faPlus} style={{color:"#121212"}} onClick={()=>setIsMenuOpen(true)}/>
                         }
                         </div>
                         </div>
@@ -49,8 +49,8 @@ const LandingFour = () => {
             <div className='landing-four-dropdown-icon'>
                         {
                             isMenuOpen2 ?
-                                 <FontAwesomeIcon icon={faX} style={{color:"white"}} onClick={()=>setIsMenuOpen2(false)}/>
-                                : <FontAwesomeIcon icon={faPlus} style={{color:"white"}} onClick={()=>setIsMenuOpen2(true)}/>
+                                 <FontAwesomeIcon icon={faX} style={{color:"#121212"}} onClick={()=>setIsMenuOpen2(false)}/>
+                                : <FontAwesomeIcon icon={faPlus} style={{color:"#121212"}} onClick={()=>setIsMenuOpen2(true)}/>
                         }
                         </div>
                         </div>
@@ -71,8 +71,8 @@ const LandingFour = () => {
             <div className='landing-four-dropdown-icon'>
                         {
                             isMenuOpen3 ?
-                                 <FontAwesomeIcon icon={faX} style={{color:"white"}} onClick={()=>setIsMenuOpen3(false)}/>
-                                : <FontAwesomeIcon icon={faPlus} style={{color:"white"}} onClick={()=>setIsMenuOpen3(true)}/>
+                                 <FontAwesomeIcon icon={faX} style={{color:"#121212"}} onClick={()=>setIsMenuOpen3(false)}/>
+                                : <FontAwesomeIcon icon={faPlus} style={{color:"#121212"}} onClick={()=>setIsMenuOpen3(true)}/>
                         }
                         </div>
                         </div>
@@ -96,8 +96,8 @@ const LandingFour = () => {
             <div className='landing-four-dropdown-icon'>
                         {
                             isMenuOpen4 ?
-                                 <FontAwesomeIcon icon={faX} style={{color:"white"}} onClick={()=>setIsMenuOpen4(false)}/>
-                                : <FontAwesomeIcon icon={faPlus} style={{color:"white"}} onClick={()=>setIsMenuOpen4(true)}/>
+                                 <FontAwesomeIcon icon={faX} style={{color:"#121212"}} onClick={()=>setIsMenuOpen4(false)}/>
+                                : <FontAwesomeIcon icon={faPlus} style={{color:"#121212"}} onClick={()=>setIsMenuOpen4(true)}/>
                         }
                         </div>
                         </div>
@@ -118,8 +118,8 @@ const LandingFour = () => {
             <div className='landing-four-dropdown-icon'>
                         {
                             isMenuOpen5 ?
-                                 <FontAwesomeIcon icon={faX} style={{color:"white"}} onClick={()=>setIsMenuOpen5(false)}/>
-                                : <FontAwesomeIcon icon={faPlus} style={{color:"white"}} onClick={()=>setIsMenuOpen5(true)}/>
+                                 <FontAwesomeIcon icon={faX} style={{color:"#121212"}} onClick={()=>setIsMenuOpen5(false)}/>
+                                : <FontAwesomeIcon icon={faPlus} style={{color:"#121212"}} onClick={()=>setIsMenuOpen5(true)}/>
                         }
                         </div>
                         </div>

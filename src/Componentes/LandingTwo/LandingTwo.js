@@ -4,11 +4,14 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 /* import { Carousel } from 'react-responsive-carousel'; */
 import  './LandingTwo.css';
 /* import image from '../../Assets/Images/image1.png'; */
-import gafas from '../../Assets/Images/Imagen-gafas 1.png';
+/* import gafas from '../../Assets/Images/Imagen-gafas 1.png'; */
+import player from '../../Assets/Images/Picture1.jpg';
+import player1 from '../../Assets/Images/Picture2.jpg';
 import icono1 from '../../Assets/Images/icono1.svg';
 import icono2 from '../../Assets/Images/icono2.svg';
 import icono3 from '../../Assets/Images/icono3.svg';
 import elpais from '../../Assets/Images/el-pais.svg';
+import bus from '../../Assets/Images/bus.jpg';
 import emprendedores from '../../Assets/Images/emprendedores-logo.png';
 import economiesta from '../../Assets/Images/economiesta.svg';
 import expansion from '../../Assets/Images/expansion-new.svg';
@@ -50,9 +53,10 @@ const LandingTwo = () => {
       <div className={ color ? 'landing-two-mainbg' : 'landing-two-seconbg'}>
       <div className='landing-two-div-one' data-aos="fade-up" data-aos-duration="2000">
         <h2 className='landing-two-h2-underline'>WHAT?</h2>
-        <div className='landing-two-block'>
+        <div className='landing-two-block' data-aos="fade-up" data-aos-duration="2000">
           <p className='landing-two-p'>We’re a Madrid-based mission-driven start-up developing and selling football experiences for 17 clubs and growing!. Bstadium provides fans the possibility of living exclusive physical and virtual experiences via the marketplace bstadium.es.</p>
-          <img className='landing-two-img' src={gafas} alt=''></img>
+          <img className='landing-two-img' src={player} alt=''></img>
+          <img className='landing-two-img' src={player1} alt=''></img>
         </div>
       </div>
 
@@ -97,7 +101,10 @@ const LandingTwo = () => {
                 <h2 className='landing-two-div-three-title'>MIND BLOWING <br /> EXPERIENCES</h2>
                 
               </div>
-              <p className='landing-two-div-three-text'>Attractive experiences of all types<br></br> (matches, tours, training, events…) using  tech (AR,/VR) and physical resources (stadium, players..)</p>
+              <ul style={{padding:10}}>
+                <li className='landing-two-div-three-text'>Attractive experiences of all types<br></br> (matches, tours, training, events…) using  tech (AR,/VR) and physical resources (stadium, players..)</li>                                
+              </ul>
+              {/* <p className='landing-two-div-three-text'>Attractive experiences of all types<br></br> (matches, tours, training, events…) using  tech (AR,/VR) and physical resources (stadium, players..)</p> */}
             </div>
 
             <div className='landing-two-div-three-container' data-aos="fade-up" data-aos-duration="2000">
@@ -106,7 +113,10 @@ const LandingTwo = () => {
                 <h2 className='landing-two-div-three-title'>EVERY DAY EXCLUSIVE <br />EXPERIENCES</h2>
                 
               </div>
-              <p className='landing-two-div-three-text'>Creating exclusive sales of our experience with partner clubs in match and non match days</p>
+              <ul style={{padding:10}}>
+                <li className='landing-two-div-three-text'>Creating exclusive sales of our experience with partner clubs in match and non match days</li>                                
+              </ul>
+              {/* <p className='landing-two-div-three-text'>Creating exclusive sales of our experience with partner clubs in match and non match days</p> */}
             </div>
 
             <div className='landing-two-div-three-container' data-aos="fade-up" data-aos-duration="2000">
@@ -115,9 +125,19 @@ const LandingTwo = () => {
                 <h2 className='landing-two-div-three-title'>REACHING THE FOOTBALL<br />  COMMUNITY</h2>
                 
               </div>
-              <p className='landing-two-div-three-text'>Having direct too loyal fans who are willing to buy products with the support of clubs.</p> <p className='landing-two-div-three-text'>Internationalisation expansion.</p> <p className='landing-two-div-three-text'>Expanding our offering worldwide and adding new clubs to our marketplace</p>
+              <ul style={{padding:10}}>
+                <li className='landing-two-div-three-text'>Having direct too loyal fans who are willing to buy products with the support of clubs.</li>
+                <li className='landing-two-div-three-text'>Internationalisation expansion.</li>
+                <li className='landing-two-div-three-text'>Expanding our offering worldwide and adding new clubs to our marketplace</li>
+              </ul>
+              {/* <p className='landing-two-div-three-text'> Having direct too loyal fans who are willing to buy products with the support of clubs.</p> 
+              <p className='landing-two-div-three-text'> Internationalisation expansion.</p> 
+              <p className='landing-two-div-three-text'>Expanding our offering worldwide and adding new clubs to our marketplace</p> */}
             </div>
           </div>
+            <div>
+              <img className='landing-two-img-bus' src={bus} alt=''></img>
+            </div>
         </div>
       </div>
 

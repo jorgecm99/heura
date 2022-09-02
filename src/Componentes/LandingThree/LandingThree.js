@@ -15,6 +15,7 @@ import entradas from '../../Assets/Images/entradas-exclusivas-y-fan-zones-min.jp
 import match from '../../Assets/Images/match-experience.png';
 
 
+
 const LandingThree = () => {
   return (
     <div className='landing-three'>

@@ -21,7 +21,7 @@
         color: white;
         margin-top: 8px;
         margin-bottom: 0px;
-        text-decoration: underline white 4px solid;
+        text-decoration: underline #03FF95 4px solid;
         text-underline-offset: 4px;
     }
     .landing-four-dropdown-content{
@@ -54,7 +54,10 @@
     }
     .landing-four-dropdown-icon {
         margin-left: 20px;
-        z-index: 2;     
+        z-index: 2;
+        background: #03FF95;
+        padding: 2px 4px;
+        border-radius: 50%;
     }
     .landing-four-dropdown-title {
         text-transform: uppercase;
@@ -104,8 +107,8 @@
         background: #121212;
         width: 100%;
         text-align: center;
-        position: relative;
-        padding: 20px 0px;
+        position: relative; 
+        
     }
     .landing-four-title {
         display: flex;
@@ -118,10 +121,11 @@
     }
     .landing-four-title-text {
         text-transform: uppercase;
+        
         color: white;
         margin-top: 8px;
         margin-bottom: 0px;
-        text-decoration: underline white 4px solid;
+        text-decoration: underline #03FF95 4px solid;
         text-underline-offset: 4px;
         font-size: 50px;
     }
@@ -159,6 +163,9 @@
     .landing-four-dropdown-icon {
         margin-left: 20px;
         z-index: 2;     
+        background: #03FF95;
+        padding: 1px 4px;
+        border-radius: 50%;
     }
     .landing-four-dropdown-title {
         text-transform: uppercase;
