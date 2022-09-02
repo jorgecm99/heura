@@ -172,7 +172,7 @@
         min-height: 411px;
     }
     .landing-three-card-one, .landing-three-card-two p {
-        font-family: 'Poppins-Regular';
+        
         font-size: 14px;
         margin-top: 20px;
         margin-bottom: 24px;
@@ -183,14 +183,14 @@
         text-transform: uppercase;
         margin-top: 0px;
         margin-bottom: 0px;
-        font-size: 40px;
+        font-size: 32px;
     }
     .landing-three-card-one-black, .landing-three-card-two-black {
         color: #03FF95;
         text-transform: uppercase;
         margin-top: 0px;
         margin-bottom: 0px;
-        font-size: 40px;
+        font-size: 32px;
     }
     .strong-underline {
         text-decoration: underline #03FF95 2px solid;
