@@ -5,7 +5,7 @@ import LandingTwo from './Componentes/LandingTwo/LandingTwo';
 import LandingThree from './Componentes/LandingThree/LandingThree';
 import LandingFour from './Componentes/LandingFour/LandingFour';
 import Header from './Componentes/Header/Header';
-import Footer from './Componentes/Footer/Footer';
+/* import Footer from './Componentes/Footer/Footer'; */
 
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
       <LandingTwo />
       <LandingThree />
       <LandingFour />
-      <Footer />
+      {/* <Footer /> */}
     </Router>
       
   );

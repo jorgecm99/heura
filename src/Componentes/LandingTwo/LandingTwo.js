@@ -11,6 +11,7 @@ import icono3 from '../../Assets/Images/icono3.svg';
 import elpais from '../../Assets/Images/el-pais.svg';
 import emprendedores from '../../Assets/Images/emprendedores-logo.png';
 import economiesta from '../../Assets/Images/economiesta.svg';
+import expansion from '../../Assets/Images/expansion-new.svg';
 import google from '../../Assets/Images/google.png';
 import lanzadera from '../../Assets/Images/lanzadera.png';
 import Flickity from 'react-flickity-component';
@@ -126,7 +127,7 @@ const LandingTwo = () => {
         <h2 className='landing-two-div-four-title landing-two-h2-new-underline' data-aos="fade-up" data-aos-duration="2000"> <span className='four-span'>WINNERS!</span> </h2>
         <div className='landing-two-div-four-divs' data-aos="fade-up" data-aos-duration="2000">
           <div className='landing-two-div-four-divs-p'>            
-            <p><b>First prize of competition 2021!</b> <br /> Thanks for the trust of our clients and club partners we showcase in this competition our new experiences and how fans are enjoying them!</p>
+            <p><b>First prize of Google for Startups competition 2021!</b> <br /> Thanks for the trust of our clients and club partners we showcase in this competition our new experiences and how fans are enjoying them!</p>
             <img src={google} alt='' className='landing-two-div-four-image'></img>
           </div>          
           {/* <div className='landing-two-div-four-divs-p'>
@@ -162,11 +163,11 @@ const LandingTwo = () => {
             </div>
             <div className='carousel-group'>
               <img src={economiesta} alt='' className='carousel-img'></img>
-              <p>""Bstadium the innovative market place of sports leisure""</p>
+              <p>"Bstadium the innovative market place of sports leisure"</p>
             </div>
             <div className='carousel-group'>
-              <img src={economiesta} alt='' className='carousel-img'></img>
-              <p>""Bstadium the innovative market place of sports leisure""</p>
+              <img src={expansion} alt='' className='carousel-img'></img>
+              <p>"Bstadium a new leisure offer to earn income"</p>
             </div>          
           </div>
 
