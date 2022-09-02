@@ -232,7 +232,7 @@
         top: 0;
         left: 0;
         height: 100vh;
-        width: 85%;
+        width: 100vw;
     }
     .header-style {
         position: relative;
@@ -309,6 +309,7 @@
         height: 100%;
         overflow-y: scroll;
         transform: rotate(-90deg);
+        
     }
     .content {
         transform: rotate(90deg);
