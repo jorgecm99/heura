@@ -1,4 +1,5 @@
-@media only screen and (max-width: 859px) { /**********************MOBILE***************************/
+/**********************MOBILE***************************/
+@media only screen and (max-width: 859px) { 
     .header {
         background: #121212 fixed no-repeat;
         position: relative;
@@ -27,6 +28,7 @@
         top: 0;
         z-index: -1;
     }
+    
     /*.header-video-btn {
         display: none;
         position: absolute;
@@ -135,12 +137,10 @@
     }
     .dropdown {
         display: inline-block;
-
     }
     .dropdown-icon {
         margin-left: 20px;
-        z-index: 2;
-        
+        z-index: 2;     
     }
     .header-horizontal-scroll, .wrapper, .section, .video-mobile-desktop {
         display: none;
