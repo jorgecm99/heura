@@ -5,8 +5,8 @@ import { faAngleDown} from '@fortawesome/free-solid-svg-icons';
 import { faAngleUp} from '@fortawesome/free-solid-svg-icons';
 import image from '../../Assets/Images/image1.png';
 import Typical from 'react-typical';
-import vertical from './../../Assets/Videos/VERTICAL.mp4'
-import horizontal from './../../Assets/Videos/HORIZONTAL.mp4'
+import vertical from './../../Assets/Videos/bstadium-mobile.mp4'
+import horizontal from './../../Assets/Videos/bstadium-desktop.mp4'
 //import Modal from './Modal';
 
 
@@ -23,12 +23,13 @@ export default function Header () {
     }
 
     return(
-        <header>
-            <div className='container'>
+        <header className='header-container'>
+           
 
-            <div className='header content'>
+            <div className='header'>
 
                 <nav className='header-style'>
+                    <div className='max-width'>
                     <img src={image} alt=''></img>
                     <div className='dropdown'>
                         <div className='dropdown-icon'>
@@ -57,6 +58,7 @@ export default function Header () {
                         <li onClick={() => scrollTo('.landing-two-div-one')}>Nuestros Valores</li>
                         <li onClick={() => scrollTo('.landing-three-title')}>Últimos 12 meses</li>                        
                         <li>FAQS</li>
+                    </div>
                     </div>
 
                 </nav>
@@ -120,8 +122,8 @@ export default function Header () {
                 </video>
                 
             </div>
-            <div  className='video-mobile-desktop content'>
-                <video muted loop autoPlay>
+            <div  className='video-mobile-desktop'>
+                <video controls muted>
                     <source src={horizontal} type="video/mp4"></source>
                     Tu navegador no soporta los vídeos de HTML5
                 </video>
@@ -129,7 +131,6 @@ export default function Header () {
             </div>
             {/*<button className='header-video-btn'>Compartir</button>*/}
             
-            </div>  
         </header>
     )
 }
