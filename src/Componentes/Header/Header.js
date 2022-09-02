@@ -6,8 +6,8 @@ import { faAngleUp} from '@fortawesome/free-solid-svg-icons';
 import image from '../../Assets/Images/image1.png';
 import Typical from 'react-typical';
 import vertical from './../../Assets/Videos/VERTICAL.mp4'
+import horizontal from './../../Assets/Videos/HORIZONTAL.mp4'
 //import Modal from './Modal';
-import HorizontalScroll from 'react-scroll-horizontal';
 
 
 
@@ -24,7 +24,9 @@ export default function Header () {
 
     return(
         <header>
-            <div className='header'>
+            <div className='container'>
+
+            <div className='header content'>
 
                 <nav className='header-style'>
                     <img src={image} alt=''></img>
@@ -87,20 +89,6 @@ export default function Header () {
                 </div>
                 
 
-
-                <HorizontalScroll 
-                 style={{width: '80vw'}}
-                 reverseScroll={true}
-                 pageLock={false}>
-
-                <div className='header-horizontal-scroll'></div>
-
-                </HorizontalScroll>
-
-
-                
-                
-
                 {/*<Modal open={isModal} onClose={() => setIsModal(false)}>
                 
                 <div className='modal-container'>
@@ -122,9 +110,6 @@ export default function Header () {
                         <p className='modal-copied'>Copied link</p>
                 </Modal>*/}
                 
-                
-                
-                
 
             </div>
 
@@ -135,9 +120,16 @@ export default function Header () {
                 </video>
                 
             </div>
+            <div  className='video-mobile-desktop content'>
+                <video muted loop autoPlay>
+                    <source src={horizontal} type="video/mp4"></source>
+                    Tu navegador no soporta los vídeos de HTML5
+                </video>
+                
+            </div>
             {/*<button className='header-video-btn'>Compartir</button>*/}
             
-            
+            </div>  
         </header>
     )
 }
