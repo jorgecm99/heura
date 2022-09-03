@@ -136,7 +136,7 @@ const LandingTwo = () => {
               <p className='landing-two-div-three-text'>Expanding our offering worldwide and adding new clubs to our marketplace</p> */}
             </div>
           </div>
-            <div>
+            <div data-aos="fade-up" data-aos-duration="2000">
               <img className='landing-two-img-bus display-dk' src={bus} alt=''></img>
               <img className='landing-two-img-bus display-mv' src={busmv} alt=''></img>
             </div>
