@@ -14,6 +14,14 @@ import elpais from '../../Assets/Images/el-pais.svg';
 import bus from '../../Assets/Images/bus.jpg';
 import busmv from '../../Assets/Images/fotobusmv.png';
 import emprendedores from '../../Assets/Images/emprendedores-logo.png';
+import bilbao from '../../Assets/Images/logobilbao.svg';
+import madrid from '../../Assets/Images/real-madrid-logo-escudo-1.svg';
+import sevilla from '../../Assets/Images/sevilla-logo-escudo.svg';
+import valladolid from '../../Assets/Images/EscudoRealValladolid.svg';
+import betis from '../../Assets/Images/escudobetis.svg';
+import real from '../../Assets/Images/EscudoRealSociedad.svg';
+import atletico from '../../Assets/Images/EscudoAtleticoMadrid.svg';
+import bacerlona from '../../Assets/Images/Barcelona-logo-escudo.svg';
 import economiesta from '../../Assets/Images/economiesta.svg';
 import expansion from '../../Assets/Images/expansion-new.svg';
 import google from '../../Assets/Images/google.png';
@@ -52,14 +60,55 @@ const LandingTwo = () => {
   return (
     <div className='landing-two'>
       <div className={ color ? 'landing-two-mainbg' : 'landing-two-seconbg'}>
-      <div className='landing-two-div-one' data-aos="fade-up" data-aos-duration="2000">
-        <h2 className='landing-two-h2-underline'>WHAT?</h2>
-        <div className='landing-two-block' data-aos="fade-up" data-aos-duration="2000">
-          <p className='landing-two-p'>We’re a Madrid-based mission-driven start-up developing and selling football experiences for 17 clubs and growing!. Bstadium provides fans the possibility of living exclusive physical and virtual experiences via the marketplace bstadium.es.</p>
-          <img className='landing-two-img' src={gafas} alt=''></img>
-          
+        <div className='landing-two-div-one' data-aos="fade-up" data-aos-duration="2000">
+          <h2 className='landing-two-h2-underline'>WHAT?</h2>
+          <div className='landing-two-block' data-aos="fade-up" data-aos-duration="2000">
+            <p className='landing-two-p'>We’re a Madrid-based mission-driven start-up developing and selling football experiences for 17 clubs and growing!. Bstadium provides fans the possibility of living exclusive physical and virtual experiences via the marketplace bstadium.es.</p>
+            <img className='landing-two-img' src={gafas} alt=''></img>
+            
+          </div>
         </div>
-      </div>
+
+        <div className='landing-two-div-one' data-aos="fade-up" data-aos-duration="2000">
+          <h2 className='landing-two-h2-underline'>WHIT WHOM?</h2>
+          <Flickity>  
+          <div className='carousel' data-flickity='{"autoPlay":2000}' style={{background:'none'}} data-aos="fade-up" data-aos-duration="2000">
+            <div className='carousel-group-escudos'>
+              <img src={bilbao} alt='' className='carousel-img-escudo'></img>
+              
+            </div>
+            <div className='carousel-group-escudos'>
+              <img src={madrid} alt='' className='carousel-img-escudo'></img>
+              
+            </div>
+            <div className='carousel-group-escudos'>
+              <img src={sevilla} alt='' className='carousel-img-escudo'></img>
+             
+            </div>
+            <div className='carousel-group-escudos'>
+              <img src={bacerlona} alt='' className='carousel-img-escudo'></img>              
+            </div>  
+             
+            <div className='carousel-group-escudos'>
+              <img src={betis} alt='' className='carousel-img-escudo'></img>              
+            </div>
+            <div className='carousel-group-escudos'>
+              <img src={atletico} alt='' className='carousel-img-escudo'></img>              
+            </div>
+            
+            <div className='carousel-group-escudos'>
+              <img src={valladolid} alt='' className='carousel-img-escudo'></img>              
+            </div>
+
+            <div className='carousel-group-escudos'>
+              <img src={real} alt='' className='carousel-img-escudo'></img>              
+            </div>
+
+          </div>
+
+        </Flickity>
+        </div>
+
 
      {/*  <div data-aos="fade-up" data-aos-duration="2000" className='landing-two-div-second'>
         <h2 className='landing-two-h2-underline'>¿porqué lo hacemos?</h2>

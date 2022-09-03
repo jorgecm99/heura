@@ -177,11 +177,23 @@
         padding: 0 20px;
     }
 
+    .carousel-img-escudo{
+        width:  70px !important;
+        height: 70px;
+    }
+
     .seccion-carrusel-desktop{
         display: none;
     }
 
     .carousel-group {
+        padding: 30px 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carousel-group-escudos{
         padding: 30px 10px;
         display: flex;
         flex-direction: column;
@@ -404,6 +416,12 @@
         background-repeat: no-repeat;
         color: #121212;
     }
+
+    .carousel-escudos {
+        background: #121212 !important;                        
+    }
+
+    
     .carousel p {
         font-size: 16px;
         line-height: 28px;
@@ -411,12 +429,28 @@
     .carousel-img {
         width: 200px !important;
     }
+
+    .carousel-img-escudo{
+        width: 100px !important;
+        height: 100px;
+
+    }
     .carousel-group {        
         width: 400px;        
         padding-top: 100px;
         padding-bottom: 100px;
         
     }
+
+    .carousel-group-escudos {        
+        width: 100px;        
+        padding-top: 10px;
+        padding-bottom: 100px;
+        margin-left: 100px;
+        height: 100px;
+    }
+
+
     .carousel .slide img {
         width: 20%;
         vertical-align: top;
