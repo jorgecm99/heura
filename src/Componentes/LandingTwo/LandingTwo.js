@@ -12,6 +12,7 @@ import icono2 from '../../Assets/Images/icono2.svg';
 import icono3 from '../../Assets/Images/icono3.svg';
 import elpais from '../../Assets/Images/el-pais.svg';
 import bus from '../../Assets/Images/bus.jpg';
+import busmv from '../../Assets/Images/fotobusmv.png';
 import emprendedores from '../../Assets/Images/emprendedores-logo.png';
 import economiesta from '../../Assets/Images/economiesta.svg';
 import expansion from '../../Assets/Images/expansion-new.svg';
@@ -136,7 +137,8 @@ const LandingTwo = () => {
             </div>
           </div>
             <div>
-              <img className='landing-two-img-bus' src={bus} alt=''></img>
+              <img className='landing-two-img-bus display-dk' src={bus} alt=''></img>
+              <img className='landing-two-img-bus display-mv' src={busmv} alt=''></img>
             </div>
         </div>
       </div>
