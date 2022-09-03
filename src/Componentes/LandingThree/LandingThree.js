@@ -42,8 +42,8 @@ const LandingThree = () => {
       </div> 
 
       <div className='landing-three-card-one' data-aos="fade-up" data-aos-duration="2000">
-          <h1 className='landing-three-card-two-title'>New virtual</h1>
-          <h1 className='landing-three-card-two-black'>physical experiences</h1>                              
+          <h1 className='landing-three-card-two-title'>Interactive</h1>
+          <h1 className='landing-three-card-two-black'>Tours</h1>                              
           <div style={{marginTop:20}}>          
             <img src={granada} alt='' className='landing-two-div-three-image' style={{width:250,marginTop:0, marginBottom:20, borderRadius:10}}></img>          
             <button className='btn-landing'><a target="_blank" rel="noopener noreferrer" href='https://bstadium.es/granada-cf/tour-por-el-nuevo-los-carmenes-estadio-de-granada-cf/'>Discover it!</a></button>
