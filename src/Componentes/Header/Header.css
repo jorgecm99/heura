@@ -5,7 +5,7 @@
         position: relative;
         top: 0;
         left: 0;
-        height: 100vh;
+        height: 85vh;
         width: 100%;
     }
     .max-width {
@@ -70,6 +70,7 @@
         text-transform: uppercase;
         color: white;
         line-height: 44px;
+        min-height: 120px;
     }
     .header-subtitle {
         font-family: 'Poppins-Light';
@@ -258,6 +259,8 @@
     }
     .header-container {
         position: relative;
+        background: #121212;
+        opacity: 0.9;
     }
     /*.video-mobile-desktop {
         position: absolute;
