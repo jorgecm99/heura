@@ -70,7 +70,7 @@ const LandingTwo = () => {
         </div>
 
         <div className='landing-two-div-one' data-aos="fade-up" data-aos-duration="2000">
-          <h2 className='landing-two-h2-underline'>WHIT WHOM?</h2>
+          <h2 className='landing-two-h2-underline'>OFFICIAL PARTNERS OF:</h2>
           <Flickity>  
           <div className='carousel' data-flickity='{"autoPlay":2000}' style={{background:'none'}} data-aos="fade-up" data-aos-duration="2000">
             <div className='carousel-group-escudos'>
