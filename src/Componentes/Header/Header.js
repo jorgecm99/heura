@@ -3,7 +3,8 @@ import  './Header.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDown} from '@fortawesome/free-solid-svg-icons';
 import { faAngleUp} from '@fortawesome/free-solid-svg-icons';
-import image from '../../Assets/Images/image1.png';
+/* import image from '../../Assets/Images/image1.png'; */
+import logo from '../../Assets/Images/logofinalbs.svg';
 import Typical from 'react-typical';
 import vertical from './../../Assets/Videos/bstadium-mobile.mp4'
 import horizontal from './../../Assets/Videos/bstadium-desktop.mp4'
@@ -30,7 +31,7 @@ export default function Header () {
 
                 <nav className='header-style'>
                     <div className='max-width'>
-                    <img src={image} alt=''></img>
+                    <img src={logo} alt='logo-bstadium' style={{height:'40px'}}></img>
                     <div className='dropdown'>
                         <div className='dropdown-icon'>
                         {
@@ -43,10 +44,10 @@ export default function Header () {
                         {
                             isMenuOpen ? 
                                 <div className='dropdown-content'>
-                                    <li onClick={() => scrollTo('.landing-one-text')}>Misión</li>
-                                    <li onClick={() => scrollTo('.landing-two-div-one')}>Nuestros Valores</li>
-                                    <li onClick={() => scrollTo('.landing-three-title')}>Últimos 12 meses</li>                                    
-                                    <li>FAQS</li>
+                                    <li onClick={() => scrollTo('.landing-one')}>Misión</li>
+                                    <li onClick={() => scrollTo('.landing-two')}>Nuestros Valores</li>
+                                    <li onClick={() => scrollTo('.landing-three')}>Últimos 12 meses</li>                                    
+                                    <li onClick={() => scrollTo('.landing-four')}>FAQS</li>
                     </div> : null
                 }
                 
@@ -54,10 +55,10 @@ export default function Header () {
                     </div>
 
                     <div className='dropdown-content-desktop'>
-                        <li onClick={() => scrollTo('.landing-one-text')}>Misión</li>
-                        <li onClick={() => scrollTo('.landing-two-div-one')}>Nuestros Valores</li>
-                        <li onClick={() => scrollTo('.landing-three-title')}>Últimos 12 meses</li>                        
-                        <li>FAQS</li>
+                        <li onClick={() => scrollTo('.landing-one')}>Misión</li>
+                        <li onClick={() => scrollTo('.landing-two')}>Nuestros Valores</li>
+                        <li onClick={() => scrollTo('.landing-three')}>Últimos 12 meses</li>                        
+                        <li onClick={() => scrollTo('.landing-four')}>FAQS</li>
                     </div>
                     </div>
 

@@ -3,7 +3,7 @@ import './LandingOne.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDown} from '@fortawesome/free-solid-svg-icons';
 import { faAngleUp} from '@fortawesome/free-solid-svg-icons';
-import logo from '../../Assets/Images/image1.png';
+import logo from '../../Assets/Images/logofinalbs.svg';
 import image from '../../Assets/Images/google-team.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
@@ -24,7 +24,7 @@ const LandingOne = () => {
             <div className='landing-one'>
 
                 <nav className='landing-one-header'>
-                    <img src={logo} alt=''></img>
+                    <img src={logo} alt='logo-bstadium' style={{height:'40px'}}></img>
                     <div className='landing-one-header-right'>
                     <div className='landing-dropdown'>
                         <div className='landing-dropdown-icon'>
@@ -38,19 +38,19 @@ const LandingOne = () => {
                         {
                             isMenuOpen ? 
                                 <div className='landing-dropdown-content'>
-                                    <li onClick={() => scrollTo('.landing-one-text')}>Misión</li>
-                                    <li onClick={() => scrollTo('.landing-two-div-one')}>Nuestros Valores</li>
-                                    <li onClick={() => scrollTo('.landing-three-title')}>Últimos 12 meses</li>                                    
-                                    <li>FAQS</li>
+                                    <li onClick={() => scrollTo('.landing-one')}>Misión</li>
+                                    <li onClick={() => scrollTo('.landing-two')}>Nuestros Valores</li>
+                                    <li onClick={() => scrollTo('.landing-three')}>Últimos 12 meses</li>                                    
+                                    <li onClick={() => scrollTo('.landing-four')}>FAQS</li>
                                 </div> : null
                 }
                 </div>
 
                 <div className='landing-dropdown-content-desktop'>
-                                    <li onClick={() => scrollTo('.landing-one-text')}>Misión</li>
-                                    <li onClick={() => scrollTo('.landing-two-div-one')}>Nuestros Valores</li>
-                                    <li onClick={() => scrollTo('.landing-three-title')}>Últimos 12 meses</li>                                    
-                                    <li>FAQS</li>
+                                    <li onClick={() => scrollTo('.landing-one')}>Misión</li>
+                                    <li onClick={() => scrollTo('.landing-two')}>Nuestros Valores</li>
+                                    <li onClick={() => scrollTo('.landing-three')}>Últimos 12 meses</li>                                    
+                                    <li onClick={() => scrollTo('.landing-four')}>FAQS</li>
                                 </div>
 
                       <button className='btn-landing'><a target="_blank" rel="noopener noreferrer" href='https://bstadium.es/quienes-somos/'>Invierte ahora</a></button>
