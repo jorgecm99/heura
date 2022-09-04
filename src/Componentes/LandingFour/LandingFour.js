@@ -2,6 +2,11 @@ import React, {useState} from 'react'
 import './LandingFour.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlus, faX} from '@fortawesome/free-solid-svg-icons';
+import facebook from '../../Assets/Images/facebook.png';
+import twitter from '../../Assets/Images/twitter.png';
+import linkedin from '../../Assets/Images/linkedin.png';
+import instagram from '../../Assets/Images/instagram.png';
+
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
@@ -134,14 +139,21 @@ const LandingFour = () => {
                 }
         </div>
     
-        <div>
-            <div className='landing-two-div-four-container footer' data-aos="fade-up" data-aos-duration="2000">
-            <div className='landing-two-div-four-title landing-two-h2-new-underline footer-text'>Want to <br></br> know more?</div>        
-            <button className='btn-landing'><a target="_blank" rel="noreferrer" href="mailto:hola@bstadium.es">Contact us</a></button>
-
-            
+        <div className='social-media' data-aos="fade-up" data-aos-duration="2000">
+           <ul>
+                <li><a target="_blank" rel="noreferrer" href="https://www.facebook.com/Bstadiumes-105912331905217"><img src={facebook} alt='facebook-bstadium' style={{height:'40px'}}></img></a></li>
+                <li><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/company/bstadium/"><img src={linkedin} alt='linkedin-bstadium' style={{height:'40px'}}></img></a></li>
+                <li><a target="_blank" rel="noreferrer" href="https://twitter.com/bstadium_es"><img src={twitter} alt='twitter-bstadium' style={{height:'40px'}}></img></a></li>
+                <li><a target="_blank" rel="noreferrer" href="https://www.instagram.com/bstadium.es/"><img src={instagram} alt='instagram-bstadium' style={{height:'40px'}}></img></a></li>                
+            </ul>           
         </div>
-    </div>
+        
+        <div data-aos="fade-up" data-aos-duration="2000">
+            <div className='landing-two-div-four-container footer'>
+                <div className='landing-two-div-four-title landing-two-h2-new-underline footer-text'>Want to <br></br> know more?</div>        
+                <button className='btn-landing'><a target="_blank" rel="noreferrer" href="mailto:hola@bstadium.es">Contact us</a></button>            
+            </div>
+        </div>
 
     </div>
   )
