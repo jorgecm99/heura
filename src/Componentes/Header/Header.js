@@ -117,7 +117,7 @@ export default function Header () {
             </div>
 
             <div  className='video-mobile'>
-                <video muted loop autoPlay>
+                <video controls muted autoPlay>
                     <source src={vertical} type="video/mp4"></source>
                     Tu navegador no soporta los vídeos de HTML5
                 </video>

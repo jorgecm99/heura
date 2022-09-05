@@ -5,8 +5,8 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import  './LandingTwo.css';
 /* import image from '../../Assets/Images/image1.png'; */
 import gafas from '../../Assets/Images/Imagen-gafas 1.png';
-/* import player from '../../Assets/Images/Picture1.jpg';
-import player1 from '../../Assets/Images/Picture2.jpg'; */
+import player from '../../Assets/Images/Picture1.jpg'
+/* import player1 from '../../Assets/Images/Picture2.jpg'; */
 import icono1 from '../../Assets/Images/icono1.svg';
 import icono2 from '../../Assets/Images/icono2.svg';
 import icono3 from '../../Assets/Images/icono3.svg';
@@ -65,6 +65,7 @@ const LandingTwo = () => {
           <div className='landing-two-block' data-aos="fade-up" data-aos-duration="2000">
             <p className='landing-two-p'>We’re a Madrid-based mission-driven start-up developing and selling football experiences for 17 clubs and growing!. Bstadium provides fans the possibility of living exclusive physical and virtual experiences via the marketplace bstadium.es.</p>
             <img className='landing-two-img' src={gafas} alt=''></img>
+            <img className='landing-two-img' src={player} alt=''></img>
             
           </div>
         </div>
