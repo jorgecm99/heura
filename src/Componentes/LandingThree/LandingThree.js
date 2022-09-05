@@ -35,14 +35,14 @@ const LandingThree = () => {
         </ul>             
       </div>
 
-      <div className='landing-three-card-one' data-aos="fade-up" data-aos-duration="2000">
-      <h1 className='landing-three-card-one-title'>PRODUCTS</h1>
-      <p style={{color:"white", lineHeight:2.2}}>We have launched our spectaculars experiences.</p>
+      <div className='landing-three-card-one' data-aos="fade-up" data-aos-duration="2000" style={{background: "white"}}>
+      <h1 className='landing-three-card-one-title' style={{color:"#121212"}}>PRODUCTS</h1>
+      <p style={{color:"#121212", lineHeight:2.2}}>We have launched our spectaculars experiences.</p>
                                            
       </div> 
 
-      <div className='landing-three-card-one' data-aos="fade-up" data-aos-duration="2000">
-          <h1 className='landing-three-card-two-title'>Interactive</h1>
+      <div className='landing-three-card-one' data-aos="fade-up" data-aos-duration="2000" style={{background: "white"}}>
+          <h1 className='landing-three-card-two-title' style={{color:"#121212"}}>Interactive</h1>
           <h1 className='landing-three-card-two-black'>Tours</h1>                              
           <div style={{marginTop:20}}>          
             <img src={granada} alt='' className='landing-two-div-three-image' style={{width:250,marginTop:0, marginBottom:20, borderRadius:10}}></img>          
@@ -50,34 +50,34 @@ const LandingThree = () => {
           </div>               
       </div> 
 
-      <div className='landing-three-card-three' data-aos="fade-up" data-aos-duration="2000">
+      <div className='landing-three-card-three' data-aos="fade-up" data-aos-duration="2000" style={{background: "white"}}>
         <h1 className='landing-three-card-two-black'>Exclusive Tickets &</h1>
-        <h1 className='landing-three-card-two-title'>Fan Zones</h1>                               
+        <h1 className='landing-three-card-two-title' style={{color:"#121212"}}>Fan Zones</h1>                               
           <div style={{marginTop:20}}>          
             <img src={entradas} alt='' className='landing-two-div-three-image' style={{width:250,marginTop:0, marginBottom:20, borderRadius:10}}></img>          
             <button className='btn-landing'><a target="_blank" rel="noopener noreferrer" href='https://bstadium.es/entradas-de-partidos/'>Get your tickets!</a></button>
           </div>               
       </div> 
 
-      <div className='landing-three-card-one' data-aos="fade-up" data-aos-duration="2000">        
-          <h1 className='landing-three-card-one-title'>Original Tours</h1>                                
+      <div className='landing-three-card-one' data-aos="fade-up" data-aos-duration="2000" style={{background: "white"}}>        
+          <h1 className='landing-three-card-one-title' style={{color:"#121212"}}>Original Tours</h1>                                
           <div style={{marginTop:20}}>          
             <img src={toursoriginales} alt='' className='landing-two-div-three-image' style={{width:250,marginTop:0, marginBottom:20, borderRadius:10}}></img>          
             <button className='btn-landing'><a target="_blank" rel="noopener noreferrer" href='https://bstadium.es/real-madrid-cf/tour-por-el-estadio-santiago-bernabeu-y-ruta-turistica-madrid-y-el-futbol/'>See more!</a></button>
           </div>               
       </div> 
 
-      <div className='landing-three-card-three' data-aos="fade-up" data-aos-duration="2000">        
+      <div className='landing-three-card-three' data-aos="fade-up" data-aos-duration="2000" style={{background: "white"}}>        
           <h1 className='landing-three-card-one-black'>Training with </h1>
-          <h1 className='landing-three-card-two-title'>the national team</h1>                                
+          <h1 className='landing-three-card-two-title' style={{color:"#121212"}}>the national team</h1>                                
           <div style={{marginTop:20}}>          
             <img src={seleccion} alt='' className='landing-two-div-three-image' style={{width:250,marginTop:0, marginBottom:20, borderRadius:10}}></img>          
             <button className='btn-landing'><a target="_blank" rel="noopener noreferrer" href='https://bstadium.es/salta-al-campo/entrena-como-la-seleccion-espanola-iniciacion/'>See more!</a></button>
           </div>               
       </div> 
 
-      <div className='landing-three-card-one' data-aos="fade-up" data-aos-duration="2000">        
-          <h1 className='landing-three-card-one-title'>Corporate events &</h1>    
+      <div className='landing-three-card-one' data-aos="fade-up" data-aos-duration="2000" style={{background: "white"}}>        
+          <h1 className='landing-three-card-one-title' style={{color:"#121212"}}>Corporate events &</h1>    
           <h1 className='landing-three-card-one-black'>digital experiences</h1>                            
           <div style={{marginTop:20}}>          
             <img src={eventos} alt='' className='landing-two-div-three-image' style={{width:250,marginTop:0, marginBottom:20, borderRadius:10}}></img>          
@@ -86,15 +86,15 @@ const LandingThree = () => {
       </div> 
          
 
-      <div className='landing-three-card-three' data-aos="fade-up" data-aos-duration="2000">
+      <div className='landing-three-card-three' data-aos="fade-up" data-aos-duration="2000" style={{background: "white"}}>
           <h1 className='landing-three-card-two-black'>Trainings &</h1> 
-          <h1 className='landing-three-card-two-title'>group activities</h1>
+          <h1 className='landing-three-card-two-title' style={{color:"#121212"}}>group activities</h1>
           <img src={entrenamientos} alt='' className='landing-two-div-three-image' style={{width:250,marginTop:50, marginBottom:20, borderRadius:10}}></img>
           <button className='btn-landing'><a target="_blank" rel="noopener noreferrer" href='https://bstadium.es/real-madrid-cf/tour-por-el-estadio-santiago-bernabeu-y-ruta-turistica-madrid-y-el-futbol/'>See more!</a></button>
       </div>
 
-      <div className='landing-three-card-one' data-aos="fade-up" data-aos-duration="2000">        
-          <h1 className='landing-three-card-one-title'>Match Days</h1>
+      <div className='landing-three-card-one' data-aos="fade-up" data-aos-duration="2000" style={{background: "white"}}>        
+          <h1 className='landing-three-card-one-title' style={{color:"#121212"}}>Match Days</h1>
           
           <div style={{marginTop:20}}>          
             <img src={match} alt='' className='landing-two-div-three-image' style={{width:250,marginTop:0, marginBottom:20, borderRadius:10}}></img>          
@@ -102,8 +102,8 @@ const LandingThree = () => {
           </div>               
       </div> 
 
-      <div className='landing-three-card-three' data-aos="fade-up" data-aos-duration="2000">
-          <h1 className='landing-three-card-one-title'>New launching!</h1>
+      <div className='landing-three-card-three' data-aos="fade-up" data-aos-duration="2000" style={{background: "white"}}>
+          <h1 className='landing-three-card-one-title' style={{color:"#121212"}}>New launching!</h1>
           <h1 className='landing-three-card-two-black'>Challenge Sevilla</h1>
           <img src={desafioSevillaPitchmin} alt='' className='landing-two-div-three-image' style={{width:250,marginTop:30, marginBottom:20}}></img>
           <button className='btn-landing'><a target="_blank" rel="noopener noreferrer" href='https://desafioestadiosevilla.com/'>See more!</a></button>
