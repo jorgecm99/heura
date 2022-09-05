@@ -15,7 +15,7 @@ AOS.init();
 const LandingFour = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [isMenuOpen2, setIsMenuOpen2] = useState(false);
-    const [isMenuOpen3, setIsMenuOpen3] = useState(false);
+    /* const [isMenuOpen3, setIsMenuOpen3] = useState(false); */
     const [isMenuOpen4, setIsMenuOpen4] = useState(false);
     const [isMenuOpen5, setIsMenuOpen5] = useState(false);
     /* const [isMenuOpen6, setIsMenuOpen6] = useState(false);
@@ -70,7 +70,7 @@ const LandingFour = () => {
                 }
         </div>
 
-        <div className='landing-four-dropdown'>
+       {/*  <div className='landing-four-dropdown'>
             <div className='landing-four-dropdown-main' data-aos="fade-up" data-aos-duration="2000">
             <h4 className='landing-four-dropdown-title'>Can you explain your Ebitda?</h4>
             <div className='landing-four-dropdown-icon'>
@@ -93,7 +93,7 @@ const LandingFour = () => {
                                     </p>
                     </div> : null
                 }
-        </div>
+        </div> */}
 
         <div className='landing-four-dropdown'>
             <div className='landing-four-dropdown-main' data-aos="fade-up" data-aos-duration="2000">
@@ -133,7 +133,7 @@ const LandingFour = () => {
                             isMenuOpen5 ? 
                                 <div className='landing-four-dropdown-content'>
                                     <p className='landing-four-dropdown-content-text'>
-                                    The invested resources will be converted into shares when we close the future financing round. Crowdcube will automatically contact Heura Foods to ensure that the conversion occurs at the appropriate point and they will send you an email when the actions are issued so that you can download your declaration of beneficial ownership in your Crowdcube profile.
+                                    The invested resources will be converted into shares when we close the future financing round. Crowdcube will automatically contact Bstadium     to ensure that the conversion occurs at the appropriate point and they will send you an email when the actions are issued so that you can download your declaration of beneficial ownership in your Crowdcube profile.
                                     </p>
                     </div> : null
                 }
