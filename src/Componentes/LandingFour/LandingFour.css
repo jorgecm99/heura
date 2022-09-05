@@ -114,9 +114,10 @@
     }
 
     .risk-text{
-        width: 50%;
+        width: 90%;
         margin: 0 auto;
         color: white;
+        margin-bottom: 100px;
     }
 
 }
@@ -261,7 +262,7 @@
         width: 50%;
         margin: 40px auto;
         color: white;
-
+        
     }
     
 }
