@@ -78,7 +78,7 @@ export default function Header () {
                             /> NEW EXPERIENCES
                             </h3>
                         <button className='btn-home'><a target="_blank" rel="noopener noreferrer" href='https://bstadium.es/'>Invest now</a></button>
-                        {/* <p className='header-subtitle'>Capital en riesgo</p> */}
+                        <p className='header-subtitle'>Capital at risk</p>
                     </div>
                     <div className='last-text'>
                         <p>
