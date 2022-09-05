@@ -53,7 +53,7 @@ const LandingOne = () => {
                                     <li onClick={() => scrollTo('.landing-four')}>FAQS</li>
                                 </div>
 
-                      <button className='btn-landing'><a target="_blank" rel="noopener noreferrer" href='https://bstadium.es/quienes-somos/'>Invierte ahora</a></button>
+                      <button className='btn-landing'><a target="_blank" rel="noopener noreferrer" href='https://bstadium.es/quienes-somos/'>Invest now</a></button>
                     </div>
                     
                 </nav>
