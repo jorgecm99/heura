@@ -60,7 +60,7 @@ const LandingThree = () => {
       </div> 
 
       <div className='landing-three-card-one' data-aos="fade-up" data-aos-duration="2000" style={{background: "white"}}>        
-          <h1 className='landing-three-card-one-title' style={{color:"#121212"}}>Original Tours</h1>                                
+          <h1 className='landing-three-card-two-title' style={{color:"#121212"}}>Original Tours</h1>                                
           <div style={{marginTop:20}}>          
             <img src={toursoriginales} alt='' className='landing-two-div-three-image' style={{width:250,marginTop:0, marginBottom:20, borderRadius:10}}></img>          
             <button className='btn-landing'><a target="_blank" rel="noopener noreferrer" href='https://bstadium.es/real-madrid-cf/tour-por-el-estadio-santiago-bernabeu-y-ruta-turistica-madrid-y-el-futbol/'>See more!</a></button>
