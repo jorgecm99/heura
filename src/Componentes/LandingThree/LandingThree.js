@@ -55,7 +55,7 @@ const LandingThree = () => {
         <h1 className='landing-three-card-two-title'>Fan Zones</h1>                               
           <div style={{marginTop:20}}>          
             <img src={entradas} alt='' className='landing-two-div-three-image' style={{width:250,marginTop:0, marginBottom:20, borderRadius:10}}></img>          
-            <button className='btn-landing'><a target="_blank" rel="noopener noreferrer" href='https://bstadium.es/entradas-de-partidos/'>Get your tikect!</a></button>
+            <button className='btn-landing'><a target="_blank" rel="noopener noreferrer" href='https://bstadium.es/entradas-de-partidos/'>Get your tickets!</a></button>
           </div>               
       </div> 
 
