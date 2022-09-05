@@ -147,6 +147,11 @@ const LandingFour = () => {
                 <li><a target="_blank" rel="noreferrer" href="https://www.instagram.com/bstadium.es/"><img src={instagram} alt='instagram-bstadium' style={{height:'40px'}}></img></a></li>                
             </ul>           
         </div>
+
+        <div style={{marginTop: '100px'}} data-aos="fade-up" data-aos-duration="2000">
+            <p><span>RISK WARNING</span></p>
+            <p className='risk-text'>Investing in start-ups and early stage businesses involves risks, including illiquidity, lack of dividends, loss of investment and dilution, and it should be done only as part of a diversified portfolio. Crowdcube is targeted exclusively at investors who are sufficiently sophisticated to understand these risks and make their own investment decisions. You will only be able to invest via Crowdcube once you are registered as sufficiently sophisticated.</p>
+        </div>
         
         <div data-aos="fade-up" data-aos-duration="2000">
             <div className='landing-two-div-four-container footer'>

@@ -26,8 +26,8 @@ const LandingThree = () => {
       </div>
             
       <div className='landing-three-card-three' data-aos="fade-up" data-aos-duration="2000">
-        <h1 className='landing-three-card-one-title'>Business</h1>
-        <h1 className='landing-three-card-two-black'>Highlights</h1>
+        <h1 className='landing-three-card-one-title' style={{fontSize:'40px'}}>Business</h1>
+        <h1 className='landing-three-card-two-black' style={{fontSize:'40px'}}>Highlights</h1>
         <ul>
           <li style={{color:"white", lineHeight:2.2, textAlign:'left'}}><strong className='strong-underline'> Tripled revenue</strong> in 2022 reaching +500k€.</li>
           <li style={{color:"white", lineHeight:2.2, textAlign:'left'}}>Q1 & Q2 '22 <strong className='strong-underline'>grew by 125%</strong> in comparison with the previous period.</li>
@@ -36,7 +36,7 @@ const LandingThree = () => {
       </div>
 
       <div className='landing-three-card-one' data-aos="fade-up" data-aos-duration="2000" style={{background: "white"}}>
-      <h1 className='landing-three-card-one-title' style={{color:"#121212"}}>PRODUCTS</h1>
+      <h1 className='landing-three-card-one-title' style={{color:"#121212", fontSize:'40px'}}>PRODUCTS</h1>
       <p style={{color:"#121212", lineHeight:2.2}}>We have launched our spectaculars experiences.</p>
                                            
       </div> 

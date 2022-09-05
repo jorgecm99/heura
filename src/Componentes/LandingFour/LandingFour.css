@@ -113,6 +113,12 @@
         color: white;
     }
 
+    .risk-text{
+        width: 50%;
+        margin: 0 auto;
+        color: white;
+    }
+
 }
 
 
@@ -249,6 +255,13 @@
 
     .social-media a{
         color: white;
+    }
+
+    .risk-text{
+        width: 50%;
+        margin: 40px auto;
+        color: white;
+
     }
     
 }

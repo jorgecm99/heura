@@ -259,8 +259,8 @@
     }
     .header-container {
         position: relative;
-        background: #121212;
-        opacity: 0.9;
+        background: black;
+        opacity: 0.99;
     }
     /*.video-mobile-desktop {
         position: absolute;
