@@ -117,14 +117,14 @@ export default function Header () {
             </div>
 
             <div  className='video-mobile'>
-                <video controls muted autoPlay>
+                <video playsInline controls muted autoPlay>
                     <source src={vertical} type="video/mp4"></source>
                     Tu navegador no soporta los vídeos de HTML5
                 </video>
                 
             </div>
             <div  className='video-mobile-desktop'>
-                <video controls muted autoPlay>
+                <video playsInline controls muted autoPlay>
                     <source src={horizontal} type="video/mp4"></source>
                     Tu navegador no soporta los vídeos de HTML5
                 </video>
