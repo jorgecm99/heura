@@ -42,7 +42,7 @@ const LandingFour = () => {
                             isMenuOpen ? 
                                 <div className='landing-four-dropdown-content'>
                                     <p className='landing-four-dropdown-content-text'>
-                                    It’s going live to the wider public in April 2022. For our pre-registered friends, you will have exclusive access to invest on the platform 48hrs prior to this. We’ll let you know the exact date in advance ;-)
+                                    In Sep 2022 for everybody, you will have exclusive. For our pre-registered friends, you will have exclusive access to invest on the platform 48hrs prior to this. We’ll let you know the exact date in advance ;-)
                                     </p>
                     </div> : null
                 }
@@ -151,7 +151,7 @@ const LandingFour = () => {
         <div data-aos="fade-up" data-aos-duration="2000">
             <div className='landing-two-div-four-container footer'>
                 <div className='landing-two-div-four-title landing-two-h2-new-underline footer-text'>Want to <br></br> know more?</div>        
-                <button className='btn-landing'><a target="_blank" rel="noreferrer" href="mailto:hola@bstadium.es">Contact us</a></button>            
+                <button className='btn-landing'><a target="_blank" rel="noreferrer" href="mailto:investors@bstadium.es">Contact us</a></button>            
             </div>
         </div>
 

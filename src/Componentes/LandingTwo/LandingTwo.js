@@ -23,6 +23,7 @@ import real from '../../Assets/Images/EscudoRealSociedad.svg';
 import atletico from '../../Assets/Images/EscudoAtleticoMadrid.svg';
 import bacerlona from '../../Assets/Images/Barcelona-logo-escudo.svg';
 import economiesta from '../../Assets/Images/economiesta.svg';
+import marca from '../../Assets/Images/marcalogo.png';
 import expansion from '../../Assets/Images/expansion-new.svg';
 import google from '../../Assets/Images/google.png';
 import lanzadera from '../../Assets/Images/lanzadera.png';
@@ -239,7 +240,12 @@ const LandingTwo = () => {
             </div>
             <div className='carousel-group'>
               <img src={expansion} alt='' className='carousel-img'></img>
-              <p>"Bstadium a new leisure offer to earn income"</p>
+              <p>"Bstadium, a new sport and leisure offer to optimize revenues for clubs"</p>
+            </div>
+
+            <div className='carousel-group'>
+              <img src={marca} alt='' className='carousel-img'></img>              
+              <p>"Leo, we don't miss you anymore." That is the message in Spanish that many passersby on the main streets of the French capital have been able to see on a bus this morning."</p>
             </div>          
           </div>
 
