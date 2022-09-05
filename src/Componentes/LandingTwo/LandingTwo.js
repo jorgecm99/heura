@@ -211,7 +211,7 @@ const LandingTwo = () => {
         <div className='landing-two-div-four-divs' data-aos="fade-up" data-aos-duration="2000">
           <div className='landing-two-div-four-divs-p'>            
           <img src={lanzadera} alt='' className='landing-two-div-four-image'></img>
-            <p>Bstadium has joined the growth accelerator program of Lanzadera, the biggest startups hub in Spain.</p>
+            <p><strong>Bstadium has joined the growth accelerator program of Lanzadera, the biggest startups hub in Spain.</strong></p>
             
           </div>          
           {/* <div className='landing-two-div-four-divs-p'>

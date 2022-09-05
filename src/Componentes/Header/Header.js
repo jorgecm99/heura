@@ -28,7 +28,6 @@ export default function Header () {
            
 
             <div className='header'>
-
                 <nav className='header-style'>
                     <div className='max-width'>
                     <img src={logo} alt='logo-bstadium' style={{height:'40px'}}></img>
@@ -44,9 +43,9 @@ export default function Header () {
                         {
                             isMenuOpen ? 
                                 <div className='dropdown-content'>
-                                    <li onClick={() => scrollTo('.landing-one')}>Misión</li>
-                                    <li onClick={() => scrollTo('.landing-two')}>Nuestros Valores</li>
-                                    <li onClick={() => scrollTo('.landing-three')}>Últimos 12 meses</li>                                    
+                                    <li onClick={() => scrollTo('.landing-one')}>Mission</li>
+                                    <li onClick={() => scrollTo('.landing-two')}>Our values</li>
+                                    <li onClick={() => scrollTo('.landing-three')}>Last 12 months</li>                                    
                                     <li onClick={() => scrollTo('.landing-four')}>FAQS</li>
                     </div> : null
                 }
@@ -55,9 +54,9 @@ export default function Header () {
                     </div>
 
                     <div className='dropdown-content-desktop'>
-                        <li onClick={() => scrollTo('.landing-one')}>Misión</li>
-                        <li onClick={() => scrollTo('.landing-two')}>Nuestros Valores</li>
-                        <li onClick={() => scrollTo('.landing-three')}>Últimos 12 meses</li>                        
+                        <li onClick={() => scrollTo('.landing-one')}>Mission</li>
+                        <li onClick={() => scrollTo('.landing-two')}>Our values</li>
+                        <li onClick={() => scrollTo('.landing-three')}>Last 12 months</li>                        
                         <li onClick={() => scrollTo('.landing-four')}>FAQS</li>
                     </div>
                     </div>
@@ -78,7 +77,7 @@ export default function Header () {
                             ]}
                             /> NEW EXPERIENCES
                             </h3>
-                        <button className='btn-home'><a target="_blank" rel="noopener noreferrer" href='https://bstadium.es/'>Invierte ahora</a></button>
+                        <button className='btn-home'><a target="_blank" rel="noopener noreferrer" href='https://bstadium.es/'>Invest now</a></button>
                         {/* <p className='header-subtitle'>Capital en riesgo</p> */}
                     </div>
                     <div className='last-text'>

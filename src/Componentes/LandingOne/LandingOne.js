@@ -38,18 +38,18 @@ const LandingOne = () => {
                         {
                             isMenuOpen ? 
                                 <div className='landing-dropdown-content'>
-                                    <li onClick={() => scrollTo('.landing-one')}>Misión</li>
-                                    <li onClick={() => scrollTo('.landing-two')}>Nuestros Valores</li>
-                                    <li onClick={() => scrollTo('.landing-three')}>Últimos 12 meses</li>                                    
+                                    <li onClick={() => scrollTo('.landing-one')}>Mission</li>
+                                    <li onClick={() => scrollTo('.landing-two')}>Our values</li>
+                                    <li onClick={() => scrollTo('.landing-three')}>Last 12 months</li>                                    
                                     <li onClick={() => scrollTo('.landing-four')}>FAQS</li>
                                 </div> : null
                 }
                 </div>
 
                 <div className='landing-dropdown-content-desktop'>
-                                    <li onClick={() => scrollTo('.landing-one')}>Misión</li>
-                                    <li onClick={() => scrollTo('.landing-two')}>Nuestros Valores</li>
-                                    <li onClick={() => scrollTo('.landing-three')}>Últimos 12 meses</li>                                    
+                                    <li onClick={() => scrollTo('.landing-one')}>Mission</li>
+                                    <li onClick={() => scrollTo('.landing-two')}>Our values</li>
+                                    <li onClick={() => scrollTo('.landing-three')}>Last 12 months</li>                                    
                                     <li onClick={() => scrollTo('.landing-four')}>FAQS</li>
                                 </div>
 
