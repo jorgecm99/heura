@@ -6,7 +6,7 @@ import { faAngleUp} from '@fortawesome/free-solid-svg-icons';
 /* import image from '../../Assets/Images/image1.png'; */
 import logo from '../../Assets/Images/logofinalbs.svg';
 import Typical from 'react-typical';
-import vertical from './../../Assets/Videos/Bstadium-vertical-SE.mp4'
+import vertical from './../../Assets/Videos/bstadium-mobile.mp4'
 import horizontal from './../../Assets/Videos/bstadium-desktop.mp4'
 //import Modal from './Modal';
 
