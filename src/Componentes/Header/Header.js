@@ -116,18 +116,11 @@ export default function Header () {
             </div>
 
             <div  className='video-mobile'>
-                <video playsInline controls muted autoPlay>
-                    <source src={vertical} type="video/mp4"></source>
-                    Tu navegador no soporta los vídeos de HTML5
-                </video>
-                
+
+                <video autoPlay playsInline loop muted><source src={vertical} type="video/mp4" /></video>                                                                    
             </div>
-            <div  className='video-mobile-desktop'>
-                <video playsInline controls muted autoPlay>
-                    <source src={horizontal} type="video/mp4"></source>
-                    Tu navegador no soporta los vídeos de HTML5
-                </video>
-                
+            <div  className='video-mobile-desktop'>            
+                <video autoPlay playsInline loop muted><source src={horizontal} type="video/mp4" /></video>                
             </div>
             {/*<button className='header-video-btn'>Compartir</button>*/}
             
