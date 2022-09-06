@@ -74,10 +74,9 @@ const LandingTwo = () => {
         <div className='landing-two-div-one' data-aos="fade-up" data-aos-duration="2000">
           <h2 className='landing-two-h2-underline'>OFFICIAL PARTNERS OF:</h2>
           <Flickity>  
-          <div className='carousel' data-flickity='{"autoPlay":2000}' style={{background:'none'}} data-aos="fade-up" data-aos-duration="2000">
+          <div className='carousel' data-flickity='{"autoPlay": "true", "cellAlign": "center", "contain": true}' style={{background:'none'}} data-aos="fade-up" data-aos-duration="2000">
             <div className='carousel-group-escudos'>
-              <img src={bilbao} alt='' className='carousel-img-escudo'></img>
-              
+              <img src={bilbao} alt='' className='carousel-img-escudo'></img>              
             </div>
             <div className='carousel-group-escudos'>
               <img src={madrid} alt='' className='carousel-img-escudo'></img>
