@@ -4,7 +4,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 /* import { Carousel } from 'react-responsive-carousel'; */
 import  './LandingTwo.css';
 /* import image from '../../Assets/Images/image1.png'; */
-import gafas from '../../Assets/Images/Imagen-gafas 1.png';
+import gafas from '../../Assets/Images/Image-gafas-1.png';
 import player from '../../Assets/Images/Picture1.jpg'
 /* import player1 from '../../Assets/Images/Picture2.jpg'; */
 import icono1 from '../../Assets/Images/icono1.svg';
